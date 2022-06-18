@@ -41,6 +41,17 @@
     <script src="/javascripts/plugins/plugins.min.js"></script>
     <!-- jquery validate js -->
     <script src="/javascripts/jquery/jquery.validate.min.js"></script>
+    
+    <!-- storyblok -->
+    <script type="text/javascript" src="//app.storyblok.com/f/storyblok-latest.js"></script>
+    <script type="text/javascript">
+      storyblok.init();
+  
+      // On the change event refresh the window
+      storyblok.on('change', function() {
+        window.location.reload(true);
+      });
+    </script>
 
     <!-- Active js -->
     <script src="/javascripts/active.js"></script>
