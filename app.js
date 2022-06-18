@@ -1,45 +1,76 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var hbs = require('hbs')
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+// code for Create an express server //
+'use strict';
+ 
+const express = require('express');
+const exphbs = require('express-handlebars');
+const { writeFileSync } = require('fs');
+const url = require('url');
+const app = express();
 
-var app = express();
+require('dotenv').config();
+
+/////////////Configure a route and initialize the client///////////
 
 
 
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'hbs');
-hbs.registerPartials(path.join(__dirname,'views/partials'),(err)=>{})
+// 1. Require the Storyblok JS client
+const StoryblokClient = require('storyblok-js-client');
+const { nextTick } = require('process');
+ 
+// 2. Initialize the client
+// You can use this preview token for now, we'll change it later
 
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-
-// catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
+let Storyblok = new StoryblokClient({
+  accessToken: process.env.STORYBLOKTOKEN
 });
+ 
 
-// error handler
-app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+// 3. Define a wilcard route to get the story mathing the url path
+app.get('/*', function(req, res, next) {
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
+  if (
+    req.url.startsWith('/public') 
+  ) return next();
+
+  
+  var path = url.parse(req.url).pathname;
+  path = path == '/' ? '/home' : path;
+
+  Storyblok
+    .get(`cdn/stories${path}`, {
+      version: 'draft'
+    })
+    .then((response) => {
+
+      writeFileSync(__dirname + '/response/' + path + '.json', JSON.stringify(response))
+      res.render('index', {
+        story: response.data.story
+      });
+
+    })
+    .catch((error) => {
+      res.send(error);
+    });
 });
+///////////// end of Configure a route and initialize the client///////////
+ 
 
-module.exports = app;
+ 
+// Define your favorite template engine here
+app.engine('.hbs', exphbs.engine({
+  defaultLayout: 'layout',
+  extname: '.hbs',
+  partialsDir: 'views/partials'
+}));
+ 
+app.set('view engine', '.hbs');
+app.set('views', 'views')
+app.use('/public', express.static('public'));
+
+app.listen(4300, function() {
+  console.log('Example app listening on port 4300!');
+});
+/////////////end of creating server///////////
+
+
