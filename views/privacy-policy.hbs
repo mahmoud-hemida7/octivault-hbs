@@ -1,53 +1,6 @@
         <!--====== Policy Area START ======-->
-        <section class="section dark-bg faq-area ptb_100 terms">
-            <div class="container mt-5">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-10 col-lg-7">
-                        <!-- Section Heading -->
-                        <div class="section-heading text-center">
-                            <h2 class="text-capitalize">Privacy Policy</h2>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-12 text-center">
-                        <h2>1. General</h2>
-                        <p>Emicron Egypt operates the OCTI VAULT app (the “service”). </p>
-                        <p>This document informs you of our policies regarding our collection, usage and storage of personal data and if such data is or can be shared with third parties. OCTI VAULT is committed to transparent and safe data processing and for you to understand how we collect, store, use and protect your information. When using the service as described in the OCTI VAULT User Agreement and this privacy policy, OCTI VAULT is the data controller.</p>
-                        <p>Unless stated otherwise, the definitions used in this Privacy policy will have the same meaning as in the OCTI VAULT User Agreement. Questions regarding the Privacy Policy and OCTI VAULT processing of your personal information may be sent to fastenergypoland@gmail.com.</p>
-                        <h2>2. Purpose and use of data</h2>
-                        <h3>2.1 By using the services provided, OCTI VAULT is processing your personal information for causes stated in the OCTI VAULT User Agreement, this Privacy Policy and compliance with applicable laws and regulations. </h3>
-                        <h3>2.2 OCTI VAULT is processing your data for the following purposes:</h3>
-                        <ol>
-                            <li>Analyses in order to develop the Services regarding functionality, security and methods. The legal basis for this processing is our legitimate interest in being able to improve our services further and to increase our knowledge of the market and users.</li>
-                            <li>Enter into or carry out a contract with you per our user agreement and any other contractual obligations between OCTI VAULT and you as a user of our services. </li>
-                            <li>Provide you with customized information regarding our services based on specific data factors such as position data, preferences and behavior patterns. The legal basis for the processing is due to the contractual necessity for us to provide you with the services.</li>
-                        </ol>
-                        <p>If you don&apos;t comply with OCTI VAULT processing your data as according with clause 2.2, we must be notified as according to article 3 below. It may be sent to info@octivault.com</p>
-                        <p>Please notice that OCTI VAULT is unable to exclude any processing of data as stated above as the services cannot be provided unless you agree with the data processing stated in clause 2. If you revoke your consent, it does not affect the legality of data handling which occurred previous to the revocation.</p>
-                        <h3>2.3 As according to the purposes stated in section 2.2, we may process name, phone number, e-mail address, location data and other information provided to OCTI VAULT. It is a contractual necessity to provide the service. </h3>
-                        <p>OCTI VAULT does not process any special category data as defined by GDPR.</p>
-                        <p>OCTI VAULT does not collect any payment information as it is sent directly to our payment provider. </p>
-                        <h3>2.4 OCTI VAULT will provide personal data and information to third parties that provide services to us, such as IT service providers. If required by law or a decision by authority, we will provide information and data to the authorities. If OCTI VAULT transfers any information or data outside of the EU / EEA, it will only be carried out after sufficient protection measures have been taken. Example by entering agreements regarding transfer and data processing with the receiver of the data.  </h3>
-                        <h3>2.5 OCTI VAULT may also process Your data and information to: </h3>
-                        <ol >
-                            <li>compliance with laws and regulations or by court order;</li>
-                            <li>apply the OCTI VAULT user agreement; or</li>
-                            <li>ensure the capability to protect OCTI VAULT ‘s or any of  OCTI VAULT ‘s partner&apos;s rights, such as in a court case. </li>
-                        </ol>
-                        <h2>3. Rights and contact</h2>
-                        <h3>3.1 OCTI VAULT is the data controller and responsible for processing Your data and information as according to applicable laws. The data is only saved for as long as it is needed to fulfill the purposes of which the data was collected. In the event that your account used for our services is canceled, we will delete all saved data and information connected to your account with the exception for data needed to be saved due to legal obligations or to safeguard the company&apos;s legal interests.</h3>
-                        <h3>3.2 OCTI VAULT strives to keep the user data and information accurate and up to date. As a user, You are free to request access, update, modification, limiting processing and also deletion of data and information bound to your account. You also have the right to object to our data processing and the right to data portability. Some changes can be made directly by you through the OCTI VAULT App.</h3>
-                        <p> If you wish to exercise any of your rights as above, you may contact OCTI VAULT at info@octivault.com.</p>
-                        <h3>3.3 If you find that Your personal information is incorrect or not treated according to applicable law or regulation, we encourage you to contact OCTI VAULT info@octivault.com . OCTI VAULT will immediately correct, block or delete inaccurate personal data and personal data not processed according to applicable law</h3>
-                        <h2>4. Security</h2>
-                        <p>The technology used by OCTI VAULT, together with this Privacy Policy, aims to protect your data from unauthorized access and unauthorized use. We may update these actions as new technology becomes available.</p>
-                        <h2>5. Links to other websites</h2>
-                        <p>The OCTI VAULT App may contain links to and from other third-party websites, OCTI VAULT is not responsible for the content of such websites or their data processing.</p>
-                        <h2>6. Changes in the Privacy Policy</h2>
-                        <p>OCTI VAULT reserves the right to, without notice, change this Privacy Policy by publishing a new version of this Privacy Policy on the Website. However, in the case of significant changes, we will also notify you of the changes by sending you an email with information about the changes.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        {{{ story.content._editable }}}
+        {{#each story.content.body}}
+                {{> (lookup . 'component') }}
+        {{/each}}
         <!--====== Terms Area End ======-->

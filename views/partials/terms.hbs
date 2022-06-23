@@ -1,0 +1,33 @@
+        {{{ _editable }}}
+        <section class="section dark-bg faq-area ptb_100 terms">
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-7">
+                        <!-- Section Heading -->
+                        <div class="section-heading text-center">
+                            <h2 class="text-capitalize">{{title}}</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        {{#each descriptions}}
+                            <p>{{descriptionItem}}</p>
+                        {{/each}}
+
+                        <div>
+                            {{otherLanguages}}
+                        </div>
+
+                        {{#each terms}}
+                            <h2>{{title}}</h2>
+                            {{#each singleTerm}}
+                                <h3>{{title}}</h3>
+                                <p>{{description}}</p>
+                            {{/each}}
+                        {{/each}}
+                        
+                    </div>
+                </div>
+            </div>
+        </section>

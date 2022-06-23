@@ -1,3 +1,4 @@
+    {{{ _editable }}}
     <section id="partners" class="section screenshots-area dark-bg ptb_100">
         <div class="container">
             <div class="row justify-content-center">
@@ -5,57 +6,24 @@
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
                         <h2 class="text-capitalize">
-                            Join the Revolution. Transform your Business
+                            {{title}}
                         </h2>
                         <p class="mt-4">
-                            Partner with Octi Vault to provide convenient charging to
-                            customers. Being an Octi Vault partner is completely free of
-                            charge and means that we are handling all customer support and
-                            installation and refill of stations when needed
+                            {{description}}
                         </p>
-                        <a class="btn btn-yellow my-4" href="/partner">Become a partner
+                        <a class="btn btn-yellow my-4" href="{{becomePartnerLink.cached_url}}">
+                            {{becomePartnerLinkTitle}}
                         </a>
                     </div>
                 </div>
                 <!-- App Screenshot Slider Area -->
                 <div class="app-screenshots owl-carousel">
                     <!-- Single Screenshot Item -->
+                    {{#each sliderAreaImages}}
                     <div class="single-screenshot">
-                        <img src="/public/images/partners/1.png" alt="">
+                        <img src="{{sliderImage.filename}}" alt="">
                     </div>
-                    <!-- Single Screenshot Item -->
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/2.png" alt="">
-                    </div>
-                    <!-- Single Screenshot Item -->
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/3.png" alt="">
-                    </div>
-                    <!-- Single Screenshot Item -->
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/4.png" alt="">
-                    </div>
-                    <!-- Single Screenshot Item -->
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/5.png" alt="">
-                    </div>
-
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/6.png" alt="">
-                    </div>
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/7.png" alt="">
-                    </div>
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/8.png" alt="">
-                    </div>
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/9.png" alt="">
-                    </div>
-                    <div class="single-screenshot">
-                        <img src="/public/images/partners/10.png" alt="">
-                    </div>
-
+                    {{/each}}
                 </div>
             </div>
         </div>

@@ -1,30 +1,6 @@
-<div class="">
-    <!-- ***** Welcome Area Start ***** -->
-    {{>welcomeStartArea}}
-    <!-- ***** Welcome Area End ***** -->
 
-    <!-- ***** HOW IT WORKS ***** -->
-    {{>howItWork}}
-    <!-- ***** HOW IT WORKS END ***** -->
-
-    <!-- ***** Features Area Start ***** -->
-    {{>features}}
-    <!-- ***** Features Area End ***** -->
-
-    <!-- ***** Price Plan Area Start ***** -->
-    {{>pricePlans}}
-    <!-- ***** Price Plan Area End ***** -->
-
-    <!-- ***** FAQ Area Start ***** -->
-    {{>faq}}
+    {{{ story.content._editable }}}
+    {{#each story.content.body}}
+        {{> (lookup . 'component') }}
+    {{/each}}
     
-    <!-- ***** FAQ Area End ***** -->
-
-    <!-- ***** Partners Area Start ***** -->
-    {{>partner}}
-    <!-- ***** Partners Area End ***** -->
-
-    <!-- ***** Download Area Start ***** -->
-    {{>downloadApp}}
-    <!-- ***** Download Area End ***** -->
-</div>

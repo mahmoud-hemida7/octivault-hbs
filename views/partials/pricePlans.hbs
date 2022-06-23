@@ -1,14 +1,13 @@
+    {{{ _editable }}}
     <section id="plans" class="section price-plan-area dark-bg overflow-hidden ptb_100">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 col-lg-7">
                     <!-- Section Heading -->
                     <div class="section-heading text-center">
-                        <h2>Octivault Price Plans</h2>
+                        <h2>{{title}}</h2>
                         <p class="d-none d-sm-block mt-4">
-                            Octi vault provides Affordable prices. Rates may vary,
-                            depending on location. Please check out each station
-                            individually in our app for relevant rates.
+                            {{description}}
                         </p>
                     </div>
                 </div>
@@ -16,77 +15,29 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-sm-10 col-lg-8">
                     <div class="row price-plan-wrapper">
+                        {{#each singelPricePlan}}
                         <div class="col-12 col-md-6" style="align-self: stretch">
                             <!-- Single Price Plan -->
                             <div class="single-price-plan text-center dark-bg p-5" style="height: 104%">
                                 <!-- Plan Thumb -->
                                 <div class="plan-thumb" style="height: 100px">
-                                    <img class="price-lg" src="/public/images/content/pay-as-you-go.png" alt="" />
+                                    <img class="price-lg" src="{{planThumbPhoto.filename}}" alt="" />
                                 </div>
                                 <!-- Plan Title -->
                                 <div class="plan-title my-2 my-sm-3">
-                                    <h3 class="text-uppercase">Pay as you Go</h3>
+                                    <h3 class="text-uppercase">{{planeTitle}}</h3>
+                                    {{#if comingSoon}}
+                                    <span style="position: absolute; bottom: -20px; left: 1rem; font-size: 15px; width: 93%;" class="badge badge-primary">
+                                        {{comingSoon}}
+                                    </span>
+                                    {{/if}}
                                 </div>
-                                <!-- Plan Price -->
-                                <!-- <div class="plan-price pb-2 pb-sm-3">
-                                        <span class="color-primary fw-6">EGP</span>
-                                        <span class="h1">49</span>
-                                    </div> -->
-                                <!-- Plan Description -->
-                                <div class="plan-description">
-                                    <ul class="plan-features">
-                                        <!-- <li class="py-2">5GB Linux Web Space</li>
-                                            <li class="py-2">5 MySQL Databases</li>
-                                            <li class="py-2 text-muted">24/7 Tech Support</li>
-                                            <li class="py-2 text-muted">Daily Backups</li> -->
-                                        <li class="py-2">Charge Per Rental</li>
-                                        <li class="py-2">Referral Program</li>
-                                        <li class="py-2">Debit/Credit cards accepted</li>
-                                    </ul>
-                                </div>
-                                <!-- Plan Button -->
-                                <!-- <div class="plan-button">
-                                        <a href="#" class="btn appmax-btn mt-3">Get Started</a>
-                                    </div> -->
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 mt-4 mt-md-0">
-                            <!-- Single Price Plan -->
-                            <div style="position: relative" class="single-price-plan text-center dark-bg p-5">
-                                <!-- Plan Thumb -->
-                                <div class="plan-thumb" style="height: 100px">
-                                    <img class="price-lg" src="/public/images/content/subscription.png" alt="" />
-                                </div>
-                                <!-- Plan Title -->
-                                <div class="plan-title my-2 my-sm-3">
-                                    <h3 class="text-uppercase d-inline-block">
-                                        Subscription
-                                    </h3>
-                                    <span style="
-                          position: absolute;
-                          bottom: -20px;
-                          left: 0px;
-                          font-size: 15px;
-                          width: 100%;
-                        " class="badge badge-primary">Coming soon</span>
-                                </div>
-                                <!-- Plan Price -->
-                                <!-- <div class="plan-price pb-2 pb-sm-3">
-                                        <span class="color-primary fw-6">EGP</span>
-                                        <span class="h1">129</span>
-                                    </div> -->
-                                <!-- Plan Description -->
-                                <div class="plan-description">
-                                    <ul class="plan-features">
-                                        <li class="py-2">One time payment required</li>
-                                        <li class="py-2">Unlimited swapping!</li>
-                                        <li class="py-2">Complimentary Vouchers</li>
-                                        <li class="py-2">Referral Program</li>
 
-                                        <!-- <li class="py-2">10GB Linux Web Space</li>
-                                            <li class="py-2">50 MySQL Databases</li>
-                                            <li class="py-2">Unlimited Email</li>
-                                            <li class="py-2">Daily Backups</li> -->
+                                <div class="plan-description">
+                                    <ul class="plan-features">
+                                        {{#each planDescriptionListItems}}
+                                        <li class="py-2">{{listItem}}</li>
+                                        {{/each}}
                                     </ul>
                                 </div>
                                 <!-- Plan Button -->
@@ -95,12 +46,13 @@
                                     </div> -->
                             </div>
                         </div>
+                        {{/each}}
                     </div>
                 </div>
             </div>
             <div class="row justify-content-center pt-5">
                 <p class="text-body pt-4 fw-5">
-                    Not sure what to choose? <a href="/contact">Contact Us</a>
+                    {{contactUs}} <a href="{{contactUsLink.cached_url}}">Contact Us</a>
                 </p>
             </div>
         </div>

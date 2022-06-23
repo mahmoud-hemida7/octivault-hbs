@@ -1,10 +1,11 @@
+        {{{ _editable }}}
         <section id="contact" class="contact-area bg-gray ptb_100" style="padding-top: 150px; background: #000;">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-12 col-lg-6 order-1 p-5">
                         <!-- Contact Us -->
                         <div class="contact-us">
-                            <h2 class="mb-4">Got any questions? <br>Always glad to hear from you </h2>
+                            <h2 class="mb-4">{{{contactTitle}}}</h2>
                             <ul>
                                 <!-- <li class="py-3">
                                     <a class="media" href="index.html?to=">
@@ -17,18 +18,20 @@
                                         </span>
                                     </a>
                                 </li> -->
+                                {{#each contactWay}}
                                 <li class="py-3">
-                                    <a class="media" href="tel:+201006506650">
+                                    <a class="media" href="{{contactWay}}">
                                         <div class="social-icon mr-3">
-                                            <i class="fas fa-phone-alt"></i>
+                                            <i class="fas {{contactIcon}} -alt"></i>
                                         </div>
                                         <span class="media-body align-self-center">
-                                            <h3 class="mb-2">Phone</h3>
-                                            <span>+20 100 65 06 65 0</span>
+                                            <h3 class="mb-2">{{contactTitle}}</h3>
+                                            <span>{{contactWay}}</span>
                                         </span>
                                     </a>
                                 </li>
-                                <li class="py-3">
+                                {{/each}}
+                                {{!-- <li class="py-3">
                                     <a class="media" href="mailto:info@octivault.com">
                                         <div class="social-icon mr-3">
                                             <i class="fas fa-envelope"></i>
@@ -38,7 +41,7 @@
                                             <span>info@octivault.com</span>
                                         </span>
                                     </a>
-                                </li>
+                                </li> --}}
                             </ul>
                         </div>
                     </div>
@@ -47,30 +50,30 @@
                         <div class="contact-box overlay-dark text-center rounded p-4 p-sm-5 mt-5 mt-lg-0 shadow-lg">
                             <!-- Contact Form -->
                             <form id="contact-form" class="validateForm" method="POST" action="/api/submit-form">
+                                {{#each formSection}}
                                 <div class="contact-top">
-                                    <h3 class="contact-title pb-3">Leave us a message</h3>
+                                    <h3 class="contact-title pb-3">{{messageTitle}}</h3>
                                 </div>
                                 <div class="row">
+                                    
                                     <div class="col-12">
+                                        {{#each fields}}
                                         <div class="form-group">
-                                            <input type="text" id="name"  class="form-control" name="name" placeholder="Name" required="required">
+                                            <input type="{{type}}" id="{{name}}"  class="form-control" name="{{name}}" placeholder="{{placeholder}}" required="required">
                                         </div>
-                                        <div class="form-group">
-                                            <input type="email" id="email"  class="form-control" name="email" placeholder="Email" required="required">
-                                        </div>
-                                        <div class="form-group">
-                                            <input type="text" id="subject"  class="form-control" name="subject" placeholder="Subject" required="required">
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
+                                        {{/each}}
+
                                         <div class="form-group">
                                             <textarea class="form-control" id="message"  name="message" placeholder="Message" required="required"></textarea>
                                         </div>
                                     </div>
+
                                     <div class="col-12">
-                                        <button id="submit" type="submit" class="btn btn-lg btn-yellow btn-block mt-3"><span class="pr-3"><i class="fas fa-paper-plane"></i></span>Send Message</button>
+                                        <button id="submit" type="submit" class="btn btn-lg btn-yellow btn-block mt-3"><span class="pr-3"><i class="fas fa-paper-plane"></i></span>{{sendMessage}}</button>
                                     </div>
+                                    
                                 </div>
+                                {{/each}}
                             </form>
                             <p class="form-message">
                                 

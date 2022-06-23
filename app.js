@@ -47,7 +47,6 @@ app.get('/*', function(req, res, next) {
       res.render('index', {
         story: response.data.story
       });
-
     })
     .catch((error) => {
       res.send(error);
@@ -61,7 +60,8 @@ app.get('/*', function(req, res, next) {
 app.engine('.hbs', exphbs.engine({
   defaultLayout: 'layout',
   extname: '.hbs',
-  partialsDir: 'views/partials'
+  partialsDir: 'views/partials',
+  
 }));
  
 app.set('view engine', '.hbs');

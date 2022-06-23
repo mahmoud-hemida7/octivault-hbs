@@ -1,13 +1,28 @@
+       {{{ _editable }}}
     <section id="features" class="section promo-area dark-bg ptb_100">
         <div class="section-heading text-center">
-            <h2 class="text-capitalize">Features</h2>
+            <h2 class="text-capitalize">{{title}}</h2>
             <!-- <p class="d-none d-sm-block mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati dignissimos quae quo ad iste ipsum officiis deleniti asperiores sit.</p>
                 <p class="d-block d-sm-none mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum obcaecati.</p> -->
         </div>
 
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-6 col-lg-3">
+                {{#each promo}}
+                    <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="single-promo text-center bg-inherit p-4">
+                                <img style="width: 100px; margin-bottom: 1em" src="{{promoIcon.filename}}" />
+                                <!-- Promo Text -->
+                                <div class="promo-text mt-2">
+                                    <h3 class="mb-2">{{title}}</h3>
+                                    <p>
+                                    {{promoDescription}}
+                                    </p>
+                                </div>
+                            </div>
+                    </div>
+                {{/each}}
+                {{!-- <div class="col-12 col-sm-6 col-lg-3">z
                     <!-- Single Promo -->
                     <div class="single-promo text-center bg-inherit p-4">
                         <img style="width: 100px; margin-bottom: 1em" src="/public/images/icon/icon-convinient.svg" />
@@ -65,7 +80,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </div>
     </section>

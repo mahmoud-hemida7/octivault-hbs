@@ -389,5 +389,28 @@
         });
      });
 
-}(jQuery));
+}
+
+(jQuery));
+
+    function toggleStation(type) {
+
+        $('#showmimic').removeClass('active');
+        $('#showdumbo').removeClass('active');
+  
+        if (type === 'mimic') {
+  
+  
+          $('#showmimic').addClass('active');
+          $('.dumbo').addClass('d-none')
+          $('.mimic').removeClass("d-none")
+  
+  
+        } else {
+  
+          $('#showdumbo').addClass('active');
+          $('.dumbo').removeClass("d-none")
+          $('.mimic').addClass('d-none')
+        }
+      }
  /////test stryblok

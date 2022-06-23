@@ -2417,6 +2417,55 @@ img {
 
 
 /* PARTNER SECTION  */
+.single-promo {
+    text-align: center;
+    /* margin: auto; */
+    /* max-width: 70%; */
+  }
+
+  .single-promo p {
+    /* width: 250px; */
+    /* margin: auto; */
+  }
+
+  .single-promo:hover,
+  .homepage-9 .single-promo {
+    background-color: #000;
+  }
+
+  button.square {
+    border-radius: 0px;
+  }
+
+
+  button.square.active {
+    background-color: #f9e71a;
+    color: #000;
+  }
+
+  button.square:hover,
+  button.square:active,
+  button.square:focus {
+    background-color: #f9e71a;
+    color: #333 !important;
+  }
+
+
+  div.stations {
+    /* max-width: 500px; */
+    padding: 40px 0px;
+    background-color: #333;
+  }
+
+  div.stations table tbody {
+    padding: 20px 20px !important;
+    display: block;
+  }
+
+  div.stations table td {
+    padding: 10px;
+    vertical-align: text-top;
+  }
 
 .single-review .card-top p {
     font-size: 2em;

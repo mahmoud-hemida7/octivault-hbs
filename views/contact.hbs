@@ -1,6 +1,10 @@
-        <!--====== Contact Area Start ======-->
+        {{!-- <!--====== Contact Area Start ======-->
         {{>contactArea}}
         <!--====== Contact Area End ======-->
         <!-- ***** Download Area Start ***** -->
         {{>downloadApp}}
-        <!-- ***** Download Area End ***** -->
+        <!-- ***** Download Area End ***** --> --}}
+{{{ story.content._editable }}}
+{{#each story.content.body}}
+        {{> (lookup . 'component') }}
+{{/each}}
