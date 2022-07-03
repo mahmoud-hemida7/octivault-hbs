@@ -15,25 +15,23 @@
                         {{#each privacyTerms}}
                                 <h2>{{title}}</h2>
                             {{#each addSingleTerm}}
-                                {{!-- title --}}
-                                {{#if title}}
                                     <h3>{{title}}</h3>
-                                {{/if}}
-                                {{#if orderListItems}}
-                                <ol>
-                                    {{#each orderListItems}}
-                                        <li>{{listItem}}</li>
+                                    <ol>
+                                    {{#each description.content}}
+                                        {{#each content}}
+                                        {{#each content}}
+                                            {{#each content}}
+                                            <li>{{text}}</li>
+                                            {{/each}}
+                                        {{/each}}
+                                        {{/each}}
                                     {{/each}}
-                                </ol>
-                                {{/if}}
-                                {{!-- description --}}
-                                {{#if description}}
-                                    <p>{{description}}</p>
-                                {{/if}}
-                                {{!-- subDescription --}}
-                                {{#if subDescription}}
-                                    <p>{{subDescription}}</p>
-                                {{/if}}
+                                    </ol>
+                                    {{#each description.content}}
+                                    {{#each content}}
+                                    <p>{{text}}</p>
+                                    {{/each}}
+                                    {{/each}}
                             {{/each}}
                         {{/each}}
                         

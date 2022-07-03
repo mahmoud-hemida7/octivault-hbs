@@ -6,9 +6,11 @@
 </div>
 <div class="d-none d-lg-block dark-bg" style="padding-top: 150px;">
   &nbsp;
-</div><section class="dark-bg section discover-area overflow-hidden">
+</div>
+<section class="dark-bg section discover-area overflow-hidden">
     <div class="container">
         <div class="row justify-content-between">
+          
             <div class="col-12 col-lg-6 order-2">
                 <!-- Discover Text -->
                 <div class="discover-text px-0 px-lg-4 pt-4 pt-lg-0">
@@ -18,18 +20,21 @@
                           {{description}}
                         </p>
                     </div>
+                    {{#each toggleButtons}}
                     <div class="d-flex" style="padding-bottom: 20px;">
-                      {{#each toogleBtns}}
-                        <button id="show{{title}}" onclick="toggleStation('{{title}}')" class="btn btn-outline square {{activeOrNot}}">{{title}}</button>
-                      {{/each}}
-                        {{!-- <button id="showDumbo" onclick="toggleStation('dumbo')" class="btn btn-outline square">Dumbo</button> --}}
+                      
+                        <button id="showMimic" onclick="toggleStation('{{buttonName}}')"class="btn btn-outline square active">{{buttonName}}</button>
+                        {{#each subToggle}}
+                          <button id="{{_uid}}" onclick="toggleStation('{{buttonName}}')" class="btn btn-outline square">{{buttonName}}</button>
+                        {{/each}}
                     </div>
+                    {{/each}}
                     <!-- START STATION MIMIC -->
-                    {{#each chooseWay}}
-                    <div class="{{className}} stations {{dispalyOrNot}}">
+                    {{#each mainShow}}
+                    <div class="mimic stations ">
                         <span style="font-size: 2em; padding: 1em 1em">{{slotsNumber}}</span>
                         <table>
-                          {{#each privileges}}
+                          {{#each addPrevilage}}
                             <tr>
                                 <td style="width: 130px !important; font-weight: bold;" class="pb-4">{{name}}</td>
                                 <td>{{description}}</td>
@@ -41,65 +46,22 @@
                     <!-- END STATION MIMIC -->
 
                     <!-- START STATION DUMBO -->
-                    {{!-- <div class="dumbo d-none stations">
-                        <span style="font-size: 2em; padding: 1em 1em">24 Slots</span>
+                    {{#each subToggleShow}}
+                    <div class="dumbo d-none stations">
+                      
+                        <span style="font-size: 2em; padding: 1em 1em">{{slotsNumber}}</span>
                         <table>
+                          {{#each addPrevilage}}
                             <tr>
-                                <td style="width: 130px !important; font-weight: bold;" class="pb-4">FREE STANDING</td>
-                                <td>This free-standing station requires no mounting or install, just a power outlet</td>
+                                <td style="width: 130px !important; font-weight: bold;" class="pb-4">{{name}}</td>
+                                <td>{{description}}</td>
                             </tr>
-
-                            <tr>
-                                <td style="width: 130px !important; font-weight: bold;" class="pb-4">BRANDING</td>
-                                <td>The screens can display branded content and the stations can be wrapped for a
-                                    sponsorship
-                                    partner</td>
-                            </tr>
-
-                            <tr>
-                                <td style="width: 130px !important; font-weight: bold;" class="pb-4">SELF SERVICE</td>
-                                <td>Our stations are fully automated, leaving your staff to do what they do best.</td>
-                            </tr>
+                          {{/each}}
                         </table>
-                    </div> --}}
+                      
+                    </div>
+                    {{/each}}
                     <!-- END STATION DUMBO -->
-
-                    <!-- 
-
-                <ul class="check-list">
-                  <li class="py-1">
-                    <div class="list-box media">
-                      <span class="media-body pl-4">
-                        Customers can charge their phone while keeping it with them
-                      </span>
-                    </div>
-                  </li>
-                  <li class="py-1">
-                    <div class="list-box media">
-                      <span class="media-body pl-4">
-                        Staff can focus on their tasks without distractions
-                      </span>
-                    </div>
-                  </li>
-                  <li class="py-1">
-                    <div class="list-box media">
-                      <span class="media-body pl-4"
-                        >
-                            Your venue is promoted to thousands of users
-                        </span
-                      >
-                    </div>
-                  </li>
-                  <li class="py-1">
-                    <div class="list-box media">
-                      <span class="media-body pl-4"
-                        >Vouchers available on app to promote your specials
-                      </span>
-                    </div>
-                  </li>
-                </ul> -->
-
-
                 </div>
             </div>
             <div class="col-12 col-lg-6 order-1" style="padding: 20px 0px; display: flex; align-items: center;">
@@ -107,14 +69,19 @@
                 <div class="service-thumb discover-thumb mx-auto text-center"
                     style="display: flex !important; align-items: center;">
                     <div style="background-color: #f9e71a; padding: 105px 60px; border-radius: 0 0 50% 50%/0 0 0% 20%;">
-                        <img class="dumbo d-none" src="{{dumboImage.filename}}" alt="" style="transform: scale(1.2);" />
-                        <img class="mimic" src="{{mimicImage.filename}}" alt="" style="transform: scale(1.2);" />
+                        {{#each subToggleShow}}
+                        <img class="dumbo d-none" src="{{subStationPhoto.filename}}" alt="" style="transform: scale(1.2);" />
+                        {{/each}}
+                        {{#each mainShow}}
+                        <img class="mimic" src="{{stationPhoto.filename}}" alt="" style="transform: scale(1.2);" />
+                        {{/each}}
                     </div>
                 </div>
                 <!-- <div class="d-lg-none service-thumb discover-thumb mx-auto text-center" style="">
                 <img src="/public/images/Dumbo.png" alt="" style="transform: scale(0.8);" />
               </div> -->
             </div>
+            
         </div>
     </div>
 </section>

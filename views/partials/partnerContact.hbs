@@ -9,15 +9,26 @@
                             <ul>
                                 {{#each contactWays}}
                                 <li class="py-3">
-                                    <a class="media" href="{{contactWay}}">
+                                    <a class="media" href="mailto:{{contactWay}}">
                                         <div class="social-icon mr-3">
                                             <i class="fas {{contactIcon}} -alt"></i>
                                         </div>
                                         <span class="media-body align-self-center">
                                             <h3 class="mb-2">{{contactTitle}}</h3>
-                                            <span>{{contactWay}}</span>
+                                            <span>{{{contactWay}}}</span>
                                         </span>
                                     </a>
+                                    {{#if tel  }}
+                                    <a class="media" href="tel:{{contactWay}}">
+                                        <div class="social-icon mr-3">
+                                            <i class="fas {{contactIcon}} -alt"></i>
+                                        </div>
+                                        <span class="media-body align-self-center">
+                                            <h3 class="mb-2">{{contactTitle}}</h3>
+                                            <span>{{{contactWay}}}</span>
+                                        </span>
+                                    </a>
+                                    {{/if}}
                                 </li>
                                 {{/each}}
                                 {{!-- <li class="py-3">
@@ -52,7 +63,7 @@
                                     </div>
                                 {{/each }}
                                 <div class="form-group">
-                                    <select class="form-control" name="typeOf" required="required" placeholder="Type">
+                                    <select class="form-control" id="typeOf" name="typeOf" required="required" placeholder="Type">
                                         {{#each selectOptions}}
                                         <option>{{addOption}}</option>
                                         {{/each}}
@@ -66,9 +77,11 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button id="submit" type="submit" class="btn btn-lg btn-yellow btn-block mt-3">
+                                <button id="submit" type="submit" class="btn btn-lg btn-yellow btn-block mt-3"  >
                                     <span class="pr-3"><i class="fas fa-paper-plane"></i></span>{{sendMessage}}
                                 </button>
+                                
+                                
                             </div>
                         </div>
                     </form>

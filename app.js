@@ -16,7 +16,7 @@ require('dotenv').config();
 
 // 1. Require the Storyblok JS client
 const StoryblokClient = require('storyblok-js-client');
-const { nextTick } = require('process');
+
  
 // 2. Initialize the client
 // You can use this preview token for now, we'll change it later
@@ -43,7 +43,7 @@ app.get('/*', function(req, res, next) {
     })
     .then((response) => {
 
-      writeFileSync(__dirname + '/response/' + path + '.json', JSON.stringify(response))
+      // writeFileSync(__dirname + '/response/' + path + '.json', JSON.stringify(response))
       res.render('index', {
         story: response.data.story
       });
@@ -52,6 +52,8 @@ app.get('/*', function(req, res, next) {
       res.send(error);
     });
 });
+
+
 ///////////// end of Configure a route and initialize the client///////////
  
 

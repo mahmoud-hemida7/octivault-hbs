@@ -1,1 +1,767 @@
-{"data":{"story":{"name":"Terms & Conditions","created_at":"2022-06-16T10:32:48.411Z","published_at":null,"id":151539121,"uuid":"97709ffd-b0c4-4a40-a8a4-6edb3557f587","content":{"_uid":"d6531073-dea0-489c-aa02-e259af7f17d9","body":[{"_uid":"725eb9ba-80ef-46c8-b278-1601f8de28da","terms":[{"_uid":"a13cdcec-27bb-4293-9c25-436a6843dc2f","title":"1. General","component":"terms-list","singleTerm":[{"_uid":"f63caa8b-e9b9-4011-809b-44e1a9ad7b31","title":"1.1 Parties to the Agreement","component":"add-term","description":"You and OCTI VAULT are the sole parties to The Agreement. You are the sole user of the Services and thereby You are solely responsible for compliance with all terms and conditions set out in The Agreement.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"f63caa8b-e9b9-4011-809b-44e1a9ad7b31\", \"id\": \"151539121\"}-->"},{"_uid":"a7cececb-90c6-4564-b35d-4beb2f297aad","title":"1.2 You acknowledge and agree that:","component":"add-term","description":"You are at least 18 years of age.\n\nYou are familiar with the safe and competent operation of a Powerbank.\n\nYou will use the Charging Stations and the Powerbanks with care and shall not damage them. You are responsible for any damage caused to the Charging Stations or the Powerbanks by your or any third parties improper use of them.\n\nYou agree that the Services at all times remain OCTI VAULT property.\n\nYou are aware that the numbers of Charging Stations and Power banks are limited and that charging availability is never guaranteed. Access to the Services may also be limited or restricted due to maintenance, force majeure and other circumstances preventing OCTI VAULT from providing The services.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"a7cececb-90c6-4564-b35d-4beb2f297aad\", \"id\": \"151539121\"}-->"},{"_uid":"90830939-e547-4159-8fb9-b913f901a329","title":"1.3 How to use The Services","component":"add-term","description":"To rent a Powerbank you have to take the following steps:\n\nDownload the OCTI VAULT App from Apple App Store or Google Play Store.\nLogin by using your telephone number and then complete the registration steps. Once your account is created you will then see the app homepage at which you can click on the navigation icon which then shows a map showing your position and the positions of OCTI VAULT Charging Stations. At the Charging Station you open the QR-scanner and scan the Charging Stations QR-code then you can use the released power bank\nOCTI VAULT will charge you from 30 EGP per starting hour. If the power bank is kept with you for more than 6 hours you will be charged by a flat rate of 180 EGP for a complete day. Fees can be different on different Stations. Your payment method is charged when you return the powerbank. All fees are subject to changes.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"90830939-e547-4159-8fb9-b913f901a329\", \"id\": \"151539121\"}-->"},{"_uid":"821bb49b-e4eb-476b-9e81-77e86f1d3a21","title":"1.4 Unauthorized use","component":"add-term","description":"You must not attempt to gain unauthorized access to the OCTI VAULT App, Charging Stations or Powerbanks for any purposes. The OCTI VAULT App, Charging Stations and Powerbanks may only be used for the purposes pursuant to The Agreement.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"821bb49b-e4eb-476b-9e81-77e86f1d3a21\", \"id\": \"151539121\"}-->"},{"_uid":"94eae65f-88a6-49e7-aae2-fbea09a8a50a","title":"1.5 Rental times","component":"add-term","description":"Maximum rental time for a Powerbank is 24 hours. If the Powerbank is not returned to a Charging station within the maximum rental time OCTI VAULT will consider the Powerbank as lost and and you will be charged with an amount of EGP 400. Thereafter you can return the Powerbank at any Charging Station. OCTI VAULT will not charge You any extra fee when returning the Powerbank.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"94eae65f-88a6-49e7-aae2-fbea09a8a50a\", \"id\": \"151539121\"}-->"},{"_uid":"6e61b3e7-d6ca-4723-bcaf-d35c4a4473e4","title":"1.6 Fees","component":"add-term","description":"Your rental of a Powerbank is on a pay per charge basis or as otherwise in accordance with the pricing as described in the OCTI VAULT app and website. OCTI VAULT will charge your debit/credit card or other agreed payment methods when returning the Powerbank to a station\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"6e61b3e7-d6ca-4723-bcaf-d35c4a4473e4\", \"id\": \"151539121\"}-->"},{"_uid":"01b29166-24e3-4675-9232-d4a7c118d416","title":"1.7 Payment methods","component":"add-term","description":"You must provide OCTI VAULT’s payment provider with information and details to a valid credit or debit card in order to use The Services. You represent and guarantee to OCTI VAULT that You are authorized to use any credit or debit card information You provide. You authorize OCTI VAULT to charge the provided card for all fees that You incur. All fees are subject to applicable taxes and other local government charges, which may be charged and collected by OCTI VAULT.\n\nIn order to dispute any and all charges by OCTI VAULT to the credit or debit card provided by You, You must contact OCTI VAULT within 2 weeks from the date of the disputed charge.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"01b29166-24e3-4675-9232-d4a7c118d416\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"5a0620a7-f772-455f-8785-da5854c8bf5e","title":"1.1 Parties to the Agreement","component":"add-term","description":"You and OCTI VAULT are the sole parties to The Agreement. You are the sole user of the Services and thereby You are solely responsible for compliance with all terms and conditions set out in The Agreement.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"5a0620a7-f772-455f-8785-da5854c8bf5e\", \"id\": \"151539121\"}-->"},{"_uid":"3311ad73-2731-4308-a62a-6d85131308ad","title":"1.2 You acknowledge and agree that:","component":"add-term","description":"You are at least 18 years of age.\n\nYou are familiar with the safe and competent operation of a Powerbank.\n\nYou will use the Charging Stations and the Powerbanks with care and shall not damage them. You are responsible for any damage caused to the Charging Stations or the Powerbanks by your or any third parties improper use of them.\n\nYou agree that the Services at all times remain OCTI VAULT property.\n\nYou are aware that the numbers of Charging Stations and Power banks are limited and that charging availability is never guaranteed. Access to the Services may also be limited or restricted due to maintenance, force majeure and other circumstances preventing OCTI VAULT from providing The services.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"3311ad73-2731-4308-a62a-6d85131308ad\", \"id\": \"151539121\"}-->"},{"_uid":"aba159e2-c591-4e7a-97a1-1c9da719c1ca","title":"1.3 How to use The Services","component":"add-term","description":"To rent a Powerbank you have to take the following steps:\n\nDownload the OCTI VAULT App from Apple App Store or Google Play Store.\nLogin by using your telephone number and then complete the registration steps. Once your account is created you will then see the app homepage at which you can click on the navigation icon which then shows a map showing your position and the positions of OCTI VAULT Charging Stations. At the Charging Station you open the QR-scanner and scan the Charging Stations QR-code then you can use the released power bank\nOCTI VAULT will charge you from 30 EGP per starting hour. If the power bank is kept with you for more than 6 hours you will be charged by a flat rate of 180 EGP for a complete day. Fees can be different on different Stations. Your payment method is charged when you return the powerbank. All fees are subject to changes.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"aba159e2-c591-4e7a-97a1-1c9da719c1ca\", \"id\": \"151539121\"}-->"},{"_uid":"3a5d6d15-3603-4943-b94b-370294eb7f5a","title":"1.4 Unauthorized use","component":"add-term","description":"You must not attempt to gain unauthorized access to the OCTI VAULT App, Charging Stations or Powerbanks for any purposes. The OCTI VAULT App, Charging Stations and Powerbanks may only be used for the purposes pursuant to The Agreement.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"3a5d6d15-3603-4943-b94b-370294eb7f5a\", \"id\": \"151539121\"}-->"},{"_uid":"f597f18e-c1db-4fb5-b92d-d132da7d449a","title":"1.5 Rental times","component":"add-term","description":"Maximum rental time for a Powerbank is 24 hours. If the Powerbank is not returned to a Charging station within the maximum rental time OCTI VAULT will consider the Powerbank as lost and and you will be charged with an amount of EGP 400. Thereafter you can return the Powerbank at any Charging Station. OCTI VAULT will not charge You any extra fee when returning the Powerbank.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"f597f18e-c1db-4fb5-b92d-d132da7d449a\", \"id\": \"151539121\"}-->"},{"_uid":"aa4bfaab-4210-4843-9546-e1e9f2b7d9ff","title":"1.6 Fees","component":"add-term","description":"Your rental of a Powerbank is on a pay per charge basis or as otherwise in accordance with the pricing as described in the OCTI VAULT app and website. OCTI VAULT will charge your debit/credit card or other agreed payment methods when returning the Powerbank to a station","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"aa4bfaab-4210-4843-9546-e1e9f2b7d9ff\", \"id\": \"151539121\"}-->"},{"_uid":"bc0b0159-7bb9-47cd-a252-ea308cf65dfb","title":"1.7 Payment methods","component":"add-term","description":"You must provide OCTI VAULT’s payment provider with information and details to a valid credit or debit card in order to use The Services. You represent and guarantee to OCTI VAULT that You are authorized to use any credit or debit card information You provide. You authorize OCTI VAULT to charge the provided card for all fees that You incur. All fees are subject to applicable taxes and other local government charges, which may be charged and collected by OCTI VAULT.\n\nIn order to dispute any and all charges by OCTI VAULT to the credit or debit card provided by You, You must contact OCTI VAULT within 2 weeks from the date of the disputed charge.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"bc0b0159-7bb9-47cd-a252-ea308cf65dfb\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"a13cdcec-27bb-4293-9c25-436a6843dc2f\", \"id\": \"151539121\"}-->"},{"_uid":"188da1c7-8a53-410a-bcf4-d50b5e0a4e01","title":"2. Disclaimer","component":"terms-list","singleTerm":[{"_uid":"fcf4e954-1661-4451-bd82-d9da5b941b14","title":"","component":"add-term","description":"You do hereby acknowledge and agree that Your use of The Services and operation of the Charging Stations and the Power Banks is at Your sole risk. OCTI VAULT provides the Services with no warranties whatsoever in regards to the Services.\n\nYou do hereby recognize and acknowledge that the transmission of information through telecommunications channels is unpredictable and depends on, amongst other issues, Your telecommunications operator and the proper maintenance of Your device. OCTI VAULT gives no guarantee of the continued availability of reception of The Services.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"fcf4e954-1661-4451-bd82-d9da5b941b14\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"107f4081-cd6f-4644-b70c-933871e2210b","title":"You do hereby acknowledge and agree that Your use of The Services and operation of the Charging Stations and the Power Banks is at Your sole risk. OCTI VAULT provides the Services with no warranties whatsoever in regards to the Services.","component":"add-term","description":"You do hereby recognize and acknowledge that the transmission of information through telecommunications channels is unpredictable and depends on, amongst other issues, Your telecommunications operator and the proper maintenance of Your device. OCTI VAULT gives no guarantee of the continued availability of reception of The Services.","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"107f4081-cd6f-4644-b70c-933871e2210b\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"188da1c7-8a53-410a-bcf4-d50b5e0a4e01\", \"id\": \"151539121\"}-->"},{"_uid":"e48d4ed3-3bea-45aa-b3d5-2b8b03f19bc7","title":"3. Privacy","component":"terms-list","singleTerm":[{"_uid":"184505bc-f6bb-4002-ad28-44ed64fa48d2","title":"","component":"add-term","description":"By using the services, You acknowledge and accept that OCTI VAULT use Your personal data in accordance with the OCTI VAULT Privacy Policy, made available at https://octivault.vercel.app/privacy-policy.html","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"184505bc-f6bb-4002-ad28-44ed64fa48d2\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"a1f2860b-43a3-4de9-984f-be73534e98a3","title":"","component":"add-term","description":"By using the services, You acknowledge and accept that OCTI VAULT use Your personal data in accordance with the OCTI VAULT Privacy Policy, made available at https://octivault.vercel.app/privacy-policy.html\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"a1f2860b-43a3-4de9-984f-be73534e98a3\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"e48d4ed3-3bea-45aa-b3d5-2b8b03f19bc7\", \"id\": \"151539121\"}-->"},{"_uid":"3a4839ea-0e47-4404-baa9-f569a64f5bc2","title":"4. Start date, cancellation and termination","component":"terms-list","singleTerm":[{"_uid":"3dba2abd-50b1-4b60-a289-22b6e89d9d6e","title":"4.1 Start date","component":"add-term","description":"The Agreement enters into force between You and OCTI VAULT from the first time You use The Services.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"3dba2abd-50b1-4b60-a289-22b6e89d9d6e\", \"id\": \"151539121\"}-->"},{"_uid":"319ac74c-908b-4493-a8d0-6600c9ebf378","title":"4.2 Cancellation","component":"add-term","description":"You may uninstall the OCTI VAULT App at any time. The Agreement is in force for as long as You use The Services and ends 10 years after Your last use of The Services.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"319ac74c-908b-4493-a8d0-6600c9ebf378\", \"id\": \"151539121\"}-->"},{"_uid":"3b835417-e71b-4686-846a-f4d9977ea75c","title":"4.3 Termination of The Agreement by OCTI VAULT","component":"add-term","description":"OCTI VAULT may at any time and for any or no reason terminate your right to use the Services, without Your consent and without any notice or cause. This Agreement remains in full force and effect, in accordance with its terms and conditions, after any termination of your right to use the Services, regardless of how The Agreement is terminated.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"3b835417-e71b-4686-846a-f4d9977ea75c\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"29473248-6211-4d40-a68d-fb50b1c0cc8f","title":"4.1 Start date","component":"add-term","description":"The Agreement enters into force between You and OCTI VAULT from the first time You use The Services.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"29473248-6211-4d40-a68d-fb50b1c0cc8f\", \"id\": \"151539121\"}-->"},{"_uid":"118a8baa-ef13-487c-ba6f-d8ff232bdc5f","title":"4.2 Cancellation","component":"add-term","description":"You may uninstall the OCTI VAULT App at any time. The Agreement is in force for as long as You use The Services and ends 10 years after Your last use of The Services.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"118a8baa-ef13-487c-ba6f-d8ff232bdc5f\", \"id\": \"151539121\"}-->"},{"_uid":"217f0b71-9359-4486-b978-30caaa2491b5","title":"4.3 Termination of The Agreement by OCTI VAULT","component":"add-term","description":"OCTI VAULT may at any time and for any or no reason terminate your right to use the Services, without Your consent and without any notice or cause. This Agreement remains in full force and effect, in accordance with its terms and conditions, after any termination of your right to use the Services, regardless of how The Agreement is terminated.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"217f0b71-9359-4486-b978-30caaa2491b5\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"3a4839ea-0e47-4404-baa9-f569a64f5bc2\", \"id\": \"151539121\"}-->"},{"_uid":"247bf714-1f5f-4844-b878-2749f2b89308","title":"5. Disputes","component":"terms-list","singleTerm":[{"_uid":"0d4185ae-f9d6-4976-b471-637c7a9e04e8","title":"","component":"add-term","description":"Any and all disputes regarding the agreement shall be made in written form to the contact information given in Article 6 below.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"0d4185ae-f9d6-4976-b471-637c7a9e04e8\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"188d97c6-9579-4d2f-87e7-b9841b58f563","title":"","component":"add-term","description":"Any and all disputes regarding the agreement shall be made in written form to the contact information given in Article 6 below.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"188d97c6-9579-4d2f-87e7-b9841b58f563\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"247bf714-1f5f-4844-b878-2749f2b89308\", \"id\": \"151539121\"}-->"},{"_uid":"dda3c548-68fc-4058-bf4d-55f47f707a17","title":"6. Contact","component":"terms-list","singleTerm":[{"_uid":"842bd73f-0651-48ce-a255-6b58affc6735","title":"","component":"add-term","description":"OCTI VAULT can be contacted by emailing info@octivault.com.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"842bd73f-0651-48ce-a255-6b58affc6735\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"a3caa5a8-e5b7-48a7-be41-edc7ad75c570","title":"","component":"add-term","description":"OCTI VAULT can be contacted by emailing info@octivault.com.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"a3caa5a8-e5b7-48a7-be41-edc7ad75c570\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"dda3c548-68fc-4058-bf4d-55f47f707a17\", \"id\": \"151539121\"}-->"},{"_uid":"371598b0-d074-404f-be47-8c34b97e0830","title":"7. Governing law and jurisdiction","component":"terms-list","singleTerm":[{"_uid":"5a9f5d3b-b116-49d6-b30c-2dadc2c48aeb","title":"","component":"add-term","description":"You agree that any disputes arising out of or relating to the agreement, the breach thereof, or the subject matter thereof shall be governed per the laws of Egypt and be settled exclusively by the Egyptian courts.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"5a9f5d3b-b116-49d6-b30c-2dadc2c48aeb\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"9288deb0-3845-47a1-8592-a8b25079fbcb","title":"","component":"add-term","description":"You agree that any disputes arising out of or relating to the agreement, the breach thereof, or the subject matter thereof shall be governed per the laws of Egypt and be settled exclusively by the Egyptian courts.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"9288deb0-3845-47a1-8592-a8b25079fbcb\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"371598b0-d074-404f-be47-8c34b97e0830\", \"id\": \"151539121\"}-->"},{"_uid":"df15bea1-9932-4ce7-963a-de246eaa756f","title":"8. Final agreement and modifications","component":"terms-list","singleTerm":[{"_uid":"7970e86b-2370-4b0b-9fab-7f2115f33065","title":"","component":"add-term","description":"You acknowledge that The agreement contains the complete and final agreement between You and OCTI VAULT. This Agreement supersedes all other prior agreements, written or oral. At any time and from time to time, and without Your consent, OCTI VAULT may unilaterally amend, modify, or change The Agreement, in its sole discretion and without any prior notice or cause. By continuing to use The Services after any amendment, modification, or change, You have agreed to be bound by all such amendments, modifications, and changes. You must carefully review The Agreement on a regular basis to maintain awareness of all amendments, modifications, and changes. The fees set forth in the OCTI VAULT App supersede all fees set forth in The Agreement.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"7970e86b-2370-4b0b-9fab-7f2115f33065\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"d787450e-b485-49ef-a2e8-0eb8454ffc41","title":"","component":"add-term","description":"You acknowledge that The agreement contains the complete and final agreement between You and OCTI VAULT. This Agreement supersedes all other prior agreements, written or oral. At any time and from time to time, and without Your consent, OCTI VAULT may unilaterally amend, modify, or change The Agreement, in its sole discretion and without any prior notice or cause. By continuing to use The Services after any amendment, modification, or change, You have agreed to be bound by all such amendments, modifications, and changes. You must carefully review The Agreement on a regular basis to maintain awareness of all amendments, modifications, and changes. The fees set forth in the OCTI VAULT App supersede all fees set forth in The Agreement.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"d787450e-b485-49ef-a2e8-0eb8454ffc41\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"df15bea1-9932-4ce7-963a-de246eaa756f\", \"id\": \"151539121\"}-->"},{"_uid":"654f0b7f-cf04-4543-888f-bb09a7cced4c","title":"9. Voluntary execution of this agreement","component":"terms-list","singleTerm":[{"_uid":"8bd1694c-9624-4170-9641-e6018d85b7c2","title":"","component":"add-term","description":"You acknowledge that You voluntarily have read The Agreement, understand the terms and consequences of The Agreement, and You are fully aware of the legal and binding effect of The Agreement.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"8bd1694c-9624-4170-9641-e6018d85b7c2\", \"id\": \"151539121\"}-->"}],"addSingleTerm":[{"_uid":"725b75a5-d14a-4c39-9f42-816629a8dd57","title":"","component":"add-term","description":"You acknowledge that You voluntarily have read The Agreement, understand the terms and consequences of The Agreement, and You are fully aware of the legal and binding effect of The Agreement.\n\n","_editable":"<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"725b75a5-d14a-4c39-9f42-816629a8dd57\", \"id\": \"151539121\"}-->"}],"_editable":"<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"654f0b7f-cf04-4543-888f-bb09a7cced4c\", \"id\": \"151539121\"}-->"}],"title":"Terms & Conditions","component":"terms","descriptions":[{"_uid":"ebc14cdc-e491-44cb-bd01-8ece562f96f3","component":"descriptionList","descriptionItem":"These terms of use represent an agreement (“The Agreement”) entered between you (“You”) and OCTI VAULT and sets forth the legally binding terms and conditions for Your use of the Services (“The Services”) provided by OCTI VAULT. The purpose of this Agreement is to regulate the Services provided by OCTI VAULT, which is to provide Powerbank rental services to You in accordance with The Agreement.","_editable":"<!--#storyblok#{\"name\": \"descriptionList\", \"space\": \"161989\", \"uid\": \"ebc14cdc-e491-44cb-bd01-8ece562f96f3\", \"id\": \"151539121\"}-->"},{"_uid":"75e868fc-fb3e-4acb-9a09-69775d130ecd","component":"descriptionList","descriptionItem":"For Your use of the Services OCTI VAULT requires that You agree to all the terms and conditions in The Agreement, “The Services” means the Charging Stations, the Powerbanks and the OCTI VAULT App and its related services as described in OCTI VAULT App, together with any other related information made available by OCTI VAULT.\n\n","_editable":"<!--#storyblok#{\"name\": \"descriptionList\", \"space\": \"161989\", \"uid\": \"75e868fc-fb3e-4acb-9a09-69775d130ecd\", \"id\": \"151539121\"}-->"},{"_uid":"dd35fc80-f0ef-4e75-a6fd-79e7ee72e32f","component":"descriptionList","descriptionItem":"“OCTI VAULT App” means the software applications accessible via mobile device and by which You may gain access the Charging Stations and the Powerbanks.","_editable":"<!--#storyblok#{\"name\": \"descriptionList\", \"space\": \"161989\", \"uid\": \"dd35fc80-f0ef-4e75-a6fd-79e7ee72e32f\", \"id\": \"151539121\"}-->"}],"otherLanguages":"Other languages","_editable":"<!--#storyblok#{\"name\": \"terms\", \"space\": \"161989\", \"uid\": \"725eb9ba-80ef-46c8-b278-1601f8de28da\", \"id\": \"151539121\"}-->"}],"component":"page","_editable":"<!--#storyblok#{\"name\": \"page\", \"space\": \"161989\", \"uid\": \"d6531073-dea0-489c-aa02-e259af7f17d9\", \"id\": \"151539121\"}-->"},"slug":"terms-conditions","full_slug":"terms-conditions","sort_by_date":null,"position":-50,"tag_list":[],"is_startpage":false,"parent_id":0,"meta_data":null,"group_id":"6d24bb25-7300-4a1d-b7ad-7e7ba41970e5","first_published_at":null,"release_id":null,"lang":"default","path":null,"alternates":[],"default_full_slug":null,"translated_slugs":null},"cv":1655999512,"rels":[],"links":[]},"headers":{"content-type":"application/json; charset=utf-8","content-length":"27147","connection":"close","server":"nginx/1.18.0","x-frame-options":"SAMEORIGIN","x-xss-protection":"1; mode=block","x-content-type-options":"nosniff","x-download-options":"noopen","x-permitted-cross-domain-policies":"none","referrer-policy":"strict-origin-when-cross-origin","x-request-id":"022020bb-5bce-4f05-8405-2c6f22d3c3a4","x-runtime":"0.023297","date":"Thu, 23 Jun 2022 16:21:00 GMT","cache-control":"max-age=0, private, must-revalidate","etag":"W/\"078e66b4e13abc6613b13078dbbd3f86\"","vary":"Origin","x-cache":"RefreshHit from cloudfront","via":"1.1 2a48e54c6ff6ceb37013a60e2ce651ba.cloudfront.net (CloudFront)","x-amz-cf-pop":"MRS52-P4","x-amz-cf-id":"wDeZH4hEOlSwvzBaiucvLfj1gJVcQZ9WT2ehzL-1t1P17FkmdzcWyA=="}}
+{
+    "data": {
+        "story": {
+            "name": "Terms & Conditions",
+            "created_at": "2022-06-16T10:32:48.411Z",
+            "published_at": null,
+            "id": 151539121,
+            "uuid": "97709ffd-b0c4-4a40-a8a4-6edb3557f587",
+            "content": {
+                "_uid": "d6531073-dea0-489c-aa02-e259af7f17d9",
+                "body": [
+                    {
+                        "_uid": "725eb9ba-80ef-46c8-b278-1601f8de28da",
+                        "terms": [
+                            {
+                                "_uid": "a13cdcec-27bb-4293-9c25-436a6843dc2f",
+                                "title": "1. General",
+                                "component": "terms-list",
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "b84ab2a0-5def-4064-8985-ba952fce8e9a",
+                                        "title": "1.1 Parties to the Agreement",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You and OCTI VAULT are the sole parties to The Agreement. You are the sole user of the Services and thereby You are solely responsible for compliance with all terms and conditions set out in The Agreement.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"b84ab2a0-5def-4064-8985-ba952fce8e9a\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "0e4386ab-28e4-4c87-b987-8ad51e854bad",
+                                        "title": "1.2 You acknowledge and agree that:",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You are at least 18 years of age.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You are familiar with the safe and competent operation of a Powerbank.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You will use the Charging Stations and the Powerbanks with care and shall not damage them. You are responsible for any damage caused to the Charging Stations or the Powerbanks by your or any third parties improper use of them.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You agree that the Services at all times remain OCTI VAULT property.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You are aware that the numbers of Charging Stations and Power banks are limited and that charging availability is never guaranteed. Access to the Services may also be limited or restricted due to maintenance, force majeure and other circumstances preventing OCTI VAULT from providing The services.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"0e4386ab-28e4-4c87-b987-8ad51e854bad\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "f6878bef-9c7f-4bae-bf4a-ef9d21dbdb8d",
+                                        "title": "1.3 How to use The Services",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "To rent a Powerbank you have to take the following steps:",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Download the OCTI VAULT App from Apple App Store or Google Play Store.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Login by using your telephone number and then complete the registration steps. Once your account is created you will then see the app homepage at which you can click on the navigation icon which then shows a map showing your position and the positions of OCTI VAULT Charging Stations. At the Charging Station you open the QR-scanner and scan the Charging Stations QR-code then you can use the released power bank",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "OCTI VAULT will charge you from 30 EGP per starting hour. If the power bank is kept with you for more than 6 hours you will be charged by a flat rate of 180 EGP for a complete day. Fees can be different on different Stations. Your payment method is charged when you return the powerbank. All fees are subject to changes.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"f6878bef-9c7f-4bae-bf4a-ef9d21dbdb8d\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "9a6e8740-aae9-46b3-9edc-a8accae51739",
+                                        "title": "1.4 Unauthorized use",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You must not attempt to gain unauthorized access to the OCTI VAULT App, Charging Stations or Powerbanks for any purposes. The OCTI VAULT App, Charging Stations and Powerbanks may only be used for the purposes pursuant to The Agreement.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"9a6e8740-aae9-46b3-9edc-a8accae51739\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "f2b15605-e63b-400f-85f7-6c15d0c427e7",
+                                        "title": "1.5 Rental times",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Maximum rental time for a Powerbank is 24 hours. If the Powerbank is not returned to a Charging station within the maximum rental time OCTI VAULT will consider the Powerbank as lost and and you will be charged with an amount of EGP 400. Thereafter you can return the Powerbank at any Charging Station. OCTI VAULT will not charge You any extra fee when returning the Powerbank.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"f2b15605-e63b-400f-85f7-6c15d0c427e7\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "99f758f9-89f9-40eb-a7d5-85e47d9c5dd3",
+                                        "title": "1.6 Fees",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Your rental of a Powerbank is on a pay per charge basis or as otherwise in accordance with the pricing as described in the OCTI VAULT app and website. OCTI VAULT will charge your debit/credit card or other agreed payment methods when returning the Powerbank to a station",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"99f758f9-89f9-40eb-a7d5-85e47d9c5dd3\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "c879d1e6-9fe4-499e-acb2-cfa4fe2352ae",
+                                        "title": "1.7 Payment methods",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You must provide OCTI VAULT’s payment provider with information and details to a valid credit or debit card in order to use The Services. You represent and guarantee to OCTI VAULT that You are authorized to use any credit or debit card information You provide. You authorize OCTI VAULT to charge the provided card for all fees that You incur. All fees are subject to applicable taxes and other local government charges, which may be charged and collected by OCTI VAULT.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "In order to dispute any and all charges by OCTI VAULT to the credit or debit card provided by You, You must contact OCTI VAULT within 2 weeks from the date of the disputed charge.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"c879d1e6-9fe4-499e-acb2-cfa4fe2352ae\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"a13cdcec-27bb-4293-9c25-436a6843dc2f\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "188da1c7-8a53-410a-bcf4-d50b5e0a4e01",
+                                "title": "2. Disclaimer",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "fcf4e954-1661-4451-bd82-d9da5b941b14",
+                                        "title": "",
+                                        "component": "add-term",
+                                        "description": "You do hereby acknowledge and agree that Your use of The Services and operation of the Charging Stations and the Power Banks is at Your sole risk. OCTI VAULT provides the Services with no warranties whatsoever in regards to the Services.\n\nYou do hereby recognize and acknowledge that the transmission of information through telecommunications channels is unpredictable and depends on, amongst other issues, Your telecommunications operator and the proper maintenance of Your device. OCTI VAULT gives no guarantee of the continued availability of reception of The Services.",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"fcf4e954-1661-4451-bd82-d9da5b941b14\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "9d1aca5a-899b-48c7-bd57-222a2ba2f2df",
+                                        "title": "",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You do hereby acknowledge and agree that Your use of The Services and operation of the Charging Stations and the Power Banks is at Your sole risk. OCTI VAULT provides the Services with no warranties whatsoever in regards to the Services.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You do hereby recognize and acknowledge that the transmission of information through telecommunications channels is unpredictable and depends on, amongst other issues, Your telecommunications operator and the proper maintenance of Your device. OCTI VAULT gives no guarantee of the continued availability of reception of The Services.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"9d1aca5a-899b-48c7-bd57-222a2ba2f2df\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"188da1c7-8a53-410a-bcf4-d50b5e0a4e01\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "e48d4ed3-3bea-45aa-b3d5-2b8b03f19bc7",
+                                "title": "3. Privacy",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "184505bc-f6bb-4002-ad28-44ed64fa48d2",
+                                        "title": "",
+                                        "component": "add-term",
+                                        "description": "By using the services, You acknowledge and accept that OCTI VAULT use Your personal data in accordance with the OCTI VAULT Privacy Policy, made available at https://octivault.vercel.app/privacy-policy.html",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"184505bc-f6bb-4002-ad28-44ed64fa48d2\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "282ece20-50e5-43a2-941d-2633040c8395",
+                                        "title": "",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "By using the services, You acknowledge and accept that OCTI VAULT use Your personal data in accordance with the OCTI VAULT Privacy Policy, made available at https://octivault.vercel.app/privacy-policy.html",
+                                                            "type": "text",
+                                                            "marks": [
+                                                                {
+                                                                    "type": "styled",
+                                                                    "attrs": {
+                                                                        "class": ""
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"282ece20-50e5-43a2-941d-2633040c8395\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"e48d4ed3-3bea-45aa-b3d5-2b8b03f19bc7\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "3a4839ea-0e47-4404-baa9-f569a64f5bc2",
+                                "title": "4. Start date, cancellation and termination",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "3dba2abd-50b1-4b60-a289-22b6e89d9d6e",
+                                        "title": "4.1 Start date",
+                                        "component": "add-term",
+                                        "description": "The Agreement enters into force between You and OCTI VAULT from the first time You use The Services.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"3dba2abd-50b1-4b60-a289-22b6e89d9d6e\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "319ac74c-908b-4493-a8d0-6600c9ebf378",
+                                        "title": "4.2 Cancellation",
+                                        "component": "add-term",
+                                        "description": "You may uninstall the OCTI VAULT App at any time. The Agreement is in force for as long as You use The Services and ends 10 years after Your last use of The Services.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"319ac74c-908b-4493-a8d0-6600c9ebf378\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "3b835417-e71b-4686-846a-f4d9977ea75c",
+                                        "title": "4.3 Termination of The Agreement by OCTI VAULT",
+                                        "component": "add-term",
+                                        "description": "OCTI VAULT may at any time and for any or no reason terminate your right to use the Services, without Your consent and without any notice or cause. This Agreement remains in full force and effect, in accordance with its terms and conditions, after any termination of your right to use the Services, regardless of how The Agreement is terminated.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"3b835417-e71b-4686-846a-f4d9977ea75c\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "0b01bf29-343c-4155-ad10-3a55b8cf09ef",
+                                        "title": "4.1 Start date",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "The Agreement enters into force between You and OCTI VAULT from the first time You use The Services.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"0b01bf29-343c-4155-ad10-3a55b8cf09ef\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "3b86a4b5-075c-4f9c-9d81-abb6386a7e2a",
+                                        "title": "4.2 Cancellation",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You may uninstall the OCTI VAULT App at any time. The Agreement is in force for as long as You use The Services and ends 10 years after Your last use of The Services.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"3b86a4b5-075c-4f9c-9d81-abb6386a7e2a\", \"id\": \"151539121\"}-->"
+                                    },
+                                    {
+                                        "_uid": "c15cb99a-2c84-4f0b-be9f-e60e37ff0d01",
+                                        "title": "4.3 Termination of The Agreement by OCTI VAULT",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "OCTI VAULT may at any time and for any or no reason terminate your right to use the Services, without Your consent and without any notice or cause. This Agreement remains in full force and effect, in accordance with its terms and conditions, after any termination of your right to use the Services, regardless of how The Agreement is terminated.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"c15cb99a-2c84-4f0b-be9f-e60e37ff0d01\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"3a4839ea-0e47-4404-baa9-f569a64f5bc2\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "247bf714-1f5f-4844-b878-2749f2b89308",
+                                "title": "5. Disputes",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "0d4185ae-f9d6-4976-b471-637c7a9e04e8",
+                                        "title": "",
+                                        "component": "add-term",
+                                        "description": "Any and all disputes regarding the agreement shall be made in written form to the contact information given in Article 6 below.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"0d4185ae-f9d6-4976-b471-637c7a9e04e8\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "79f7575c-72d9-40b8-9959-343ed04e71de",
+                                        "title": "",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "Any and all disputes regarding the agreement shall be made in written form to the contact information given in Article 6 below.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"79f7575c-72d9-40b8-9959-343ed04e71de\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"247bf714-1f5f-4844-b878-2749f2b89308\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "dda3c548-68fc-4058-bf4d-55f47f707a17",
+                                "title": "6. Contact",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "842bd73f-0651-48ce-a255-6b58affc6735",
+                                        "title": "",
+                                        "component": "add-term",
+                                        "description": "OCTI VAULT can be contacted by emailing info@octivault.com.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"842bd73f-0651-48ce-a255-6b58affc6735\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "1ba8fa49-93e9-4381-a72f-41307ea65fa9",
+                                        "title": "",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "OCTI VAULT can be contacted by emailing info@octivault.com.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"1ba8fa49-93e9-4381-a72f-41307ea65fa9\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"dda3c548-68fc-4058-bf4d-55f47f707a17\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "371598b0-d074-404f-be47-8c34b97e0830",
+                                "title": "7. Governing law and jurisdiction",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "5a9f5d3b-b116-49d6-b30c-2dadc2c48aeb",
+                                        "title": "",
+                                        "component": "add-term",
+                                        "description": "You agree that any disputes arising out of or relating to the agreement, the breach thereof, or the subject matter thereof shall be governed per the laws of Egypt and be settled exclusively by the Egyptian courts.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"5a9f5d3b-b116-49d6-b30c-2dadc2c48aeb\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "187a49eb-3b3b-4d88-bf76-6977b510a699",
+                                        "title": "",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You agree that any disputes arising out of or relating to the agreement, the breach thereof, or the subject matter thereof shall be governed per the laws of Egypt and be settled exclusively by the Egyptian courts.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"187a49eb-3b3b-4d88-bf76-6977b510a699\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"371598b0-d074-404f-be47-8c34b97e0830\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "df15bea1-9932-4ce7-963a-de246eaa756f",
+                                "title": "8. Final agreement and modifications",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "7970e86b-2370-4b0b-9fab-7f2115f33065",
+                                        "title": "",
+                                        "component": "add-term",
+                                        "description": "You acknowledge that The agreement contains the complete and final agreement between You and OCTI VAULT. This Agreement supersedes all other prior agreements, written or oral. At any time and from time to time, and without Your consent, OCTI VAULT may unilaterally amend, modify, or change The Agreement, in its sole discretion and without any prior notice or cause. By continuing to use The Services after any amendment, modification, or change, You have agreed to be bound by all such amendments, modifications, and changes. You must carefully review The Agreement on a regular basis to maintain awareness of all amendments, modifications, and changes. The fees set forth in the OCTI VAULT App supersede all fees set forth in The Agreement.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"7970e86b-2370-4b0b-9fab-7f2115f33065\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "39fa2031-062b-4112-81ee-29e52239535e",
+                                        "title": "",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You acknowledge that The agreement contains the complete and final agreement between You and OCTI VAULT. This Agreement supersedes all other prior agreements, written or oral. At any time and from time to time, and without Your consent, OCTI VAULT may unilaterally amend, modify, or change The Agreement, in its sole discretion and without any prior notice or cause. By continuing to use The Services after any amendment, modification, or change, You have agreed to be bound by all such amendments, modifications, and changes. You must carefully review The Agreement on a regular basis to maintain awareness of all amendments, modifications, and changes. The fees set forth in the OCTI VAULT App supersede all fees set forth in The Agreement.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "type": "hard_break"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"39fa2031-062b-4112-81ee-29e52239535e\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"df15bea1-9932-4ce7-963a-de246eaa756f\", \"id\": \"151539121\"}-->"
+                            },
+                            {
+                                "_uid": "654f0b7f-cf04-4543-888f-bb09a7cced4c",
+                                "title": "9. Voluntary execution of this agreement",
+                                "component": "terms-list",
+                                "singleTerm": [
+                                    {
+                                        "_uid": "8bd1694c-9624-4170-9641-e6018d85b7c2",
+                                        "title": "",
+                                        "component": "add-term",
+                                        "description": "You acknowledge that You voluntarily have read The Agreement, understand the terms and consequences of The Agreement, and You are fully aware of the legal and binding effect of The Agreement.\n\n",
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-term\", \"space\": \"161989\", \"uid\": \"8bd1694c-9624-4170-9641-e6018d85b7c2\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "addSingleTerm": [
+                                    {
+                                        "_uid": "50ad895f-5fa9-43e5-b791-29977dee309b",
+                                        "title": "",
+                                        "component": "add-condition",
+                                        "description": {
+                                            "type": "doc",
+                                            "content": [
+                                                {
+                                                    "type": "paragraph",
+                                                    "content": [
+                                                        {
+                                                            "text": "You acknowledge that You voluntarily have read The Agreement, understand the terms and consequences of The Agreement, and You are fully aware of the legal and binding effect of The Agreement.",
+                                                            "type": "text"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        "_editable": "<!--#storyblok#{\"name\": \"add-condition\", \"space\": \"161989\", \"uid\": \"50ad895f-5fa9-43e5-b791-29977dee309b\", \"id\": \"151539121\"}-->"
+                                    }
+                                ],
+                                "_editable": "<!--#storyblok#{\"name\": \"terms-list\", \"space\": \"161989\", \"uid\": \"654f0b7f-cf04-4543-888f-bb09a7cced4c\", \"id\": \"151539121\"}-->"
+                            }
+                        ],
+                        "title": "Terms & Conditions",
+                        "component": "terms",
+                        "descriptions": {
+                            "type": "doc",
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "These terms of use represent an agreement (“The Agreement”) entered between you (“You”) and OCTI VAULT and sets forth the legally binding terms and conditions for Your use of the Services (“The Services”) provided by OCTI VAULT. The purpose of this Agreement is to regulate the Services provided by OCTI VAULT, which is to provide Powerbank rental services to You in accordance with The Agreement.",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "For Your use of the Services OCTI VAULT requires that You agree to all the terms and conditions in The Agreement, “The Services” means the Charging Stations, the Powerbanks and the OCTI VAULT App and its related services as described in OCTI VAULT App, together with any other related information made available by OCTI VAULT.",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "“OCTI VAULT App” means the software applications accessible via mobile device and by which You may gain access the Charging Stations and the Powerbanks.",
+                                            "type": "text"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "paragraph",
+                                    "content": [
+                                        {
+                                            "text": "Other languages",
+                                            "type": "text",
+                                            "marks": [
+                                                {
+                                                    "type": "styled",
+                                                    "attrs": {
+                                                        "class": ""
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "_editable": "<!--#storyblok#{\"name\": \"terms\", \"space\": \"161989\", \"uid\": \"725eb9ba-80ef-46c8-b278-1601f8de28da\", \"id\": \"151539121\"}-->"
+                    }
+                ],
+                "component": "page",
+                "_editable": "<!--#storyblok#{\"name\": \"page\", \"space\": \"161989\", \"uid\": \"d6531073-dea0-489c-aa02-e259af7f17d9\", \"id\": \"151539121\"}-->"
+            },
+            "slug": "terms-conditions",
+            "full_slug": "terms-conditions",
+            "sort_by_date": null,
+            "position": -50,
+            "tag_list": [],
+            "is_startpage": false,
+            "parent_id": 0,
+            "meta_data": null,
+            "group_id": "6d24bb25-7300-4a1d-b7ad-7e7ba41970e5",
+            "first_published_at": null,
+            "release_id": null,
+            "lang": "default",
+            "path": null,
+            "alternates": [],
+            "default_full_slug": null,
+            "translated_slugs": null
+        },
+        "cv": 1656509827,
+        "rels": [],
+        "links": []
+    },
+    "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "content-length": "23810",
+        "connection": "close",
+        "server": "nginx/1.18.0",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block",
+        "x-content-type-options": "nosniff",
+        "x-download-options": "noopen",
+        "x-permitted-cross-domain-policies": "none",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "x-request-id": "da759e03-d6d3-47d7-94e3-3f69279e812b",
+        "x-runtime": "0.041204",
+        "date": "Wed, 29 Jun 2022 13:37:24 GMT",
+        "cache-control": "max-age=0, private, must-revalidate",
+        "etag": "W/\"3b99420f7e97b81451abe1338d5e8ae2\"",
+        "vary": "Accept-Encoding,Origin",
+        "x-cache": "RefreshHit from cloudfront",
+        "via": "1.1 90df5e49b328fddf16d1ea3adbbfca0e.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "MRS52-P1",
+        "x-amz-cf-id": "X525aBHmgLX3JGUjI6eyNSe1KHgejubxj54mcDUIZYmBOW82Ee5JaQ=="
+    }
+}

@@ -11,19 +11,23 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
-                        {{#each descriptions}}
-                            <p>{{descriptionItem}}</p>
+                        {{!-- description --}}
+                        {{#each descriptions.content}}
+                            {{#each content}}
+                                <p>{{text}}</p>
+                            {{/each}}
                         {{/each}}
 
-                        <div>
-                            {{otherLanguages}}
-                        </div>
-
                         {{#each terms}}
-                            <h2>{{title}}</h2>
-                            {{#each singleTerm}}
-                                <h3>{{title}}</h3>
-                                <p>{{description}}</p>
+                                <h2>{{title}}</h2>
+                            {{#each addSingleTerm}}
+                                    <h3>{{title}}</h3>
+                                    
+                                    {{#each description.content}}
+                                    {{#each content}}
+                                    <p>{{text}}</p>
+                                    {{/each}}
+                                    {{/each}}
                             {{/each}}
                         {{/each}}
                         
