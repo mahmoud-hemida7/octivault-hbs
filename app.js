@@ -76,3 +76,4 @@ app.listen(4300, function() {
 /////////////end of creating server///////////
 
 
+module.exports = app;
