@@ -2,29 +2,69 @@
 // code for Create an express server //
 'use strict';
  
+const { readFileSync, readdirSync, writeFileSync } = require('fs');
+var Handlebars = require('handlebars');
 const express = require('express');
+const simpleGit = require('simple-git');
+const StoryblokClient = require('storyblok-js-client');
+
 const exphbs = require('express-handlebars');
-const { writeFileSync } = require('fs');
 const url = require('url');
 const app = express();
 
 require('dotenv').config();
 
-/////////////Configure a route and initialize the client///////////
+// CONFIGURE HBS 
 
+const data = require('./stories.json');
+const partials = readdirSync('./views/partials')
 
+// Register partials
+for (const partial of partials) {
+  if (partial.endsWith('.hbs')) Handlebars.registerPartial(partial.replace('.hbs', ''), readFileSync(`./views/partials/${partial}`, 'utf8'));
+}
 
-// 1. Require the Storyblok JS client
-const StoryblokClient = require('storyblok-js-client');
+// CONFIGURE GIT 
+// email if it is not working :--> mahmoud.watidy+octivault@gmail.com
+const USER = 'watidy-octivault';
+const PASS = 'Octivault2022&%';
+const REPO = 'gitlab.com/mwatidy/octivault';
 
- 
-// 2. Initialize the client
-// You can use this preview token for now, we'll change it later
+const remote = `https://${ USER }:${ PASS }@${ REPO }`;
+
+let git = simpleGit();
+
+(async () => {
+
+  await git.clone(remote);
+  
+  // clone repo from remote
+  // --------------------------------------------------
+
+  // const SimpleGit = simpleGit({ 
+  //   baseDir: process.cwd() + '/build',
+  //   binary: 'git',
+  //   maxConcurrentProcesses: 6,
+  //   config: [
+  //     'http.proxy=someproxy'
+      
+  //   ]});
+  
+  //  ===>  TODO FOR NEXT TIME  <====
+  
+  // - FINISH GIT OPS
+  // - HEROKU
+  // - ERROR HANDLING
+    
+    
+})();
+
+/////////////Configure and initialize storyblok client///////////
 
 let Storyblok = new StoryblokClient({
   accessToken: process.env.STORYBLOKTOKEN
 });
- 
+
 
 // 3. Define a wilcard route to get the story mathing the url path
 app.get('/*', function(req, res, next) {
@@ -54,10 +94,41 @@ app.get('/*', function(req, res, next) {
 });
 
 
-///////////// end of Configure a route and initialize the client///////////
- 
+///////////// end of Configure a route and initialize the client ///////////
 
- 
+
+// route to make a commit after publish
+app.get('/create-page', async (req, res) => {
+
+    try {
+
+    const hbsTemplate = readFileSync('./views/index.hbs', 'utf8');
+    const hbsLayout = readFileSync('./views/layouts/layout.hbs', 'utf8');
+
+    var template = Handlebars.compile(hbsLayout.replace('{{{body}}}', hbsTemplate));
+    const html = template(data.data);
+    
+
+    // ------ Push file change to git -------//
+
+    // - save file to folder --- page-name.html
+    // - git add 
+    // - git commit -m "updated " + filename
+    // - git push origin master
+
+
+    res.status(200).send('ok');
+  
+  } catch (error) { 
+    console.error(error);
+    res.status(500).send('somthing went wrong');
+
+  }
+
+})
+
+
+
 // Define your favorite template engine here
 app.engine('.hbs', exphbs.engine({
   defaultLayout: 'layout',
