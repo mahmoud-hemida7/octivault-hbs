@@ -78,6 +78,10 @@ let Storyblok = new StoryblokClient({
 });
 
 
+app.post('/story',function(req,res,next){
+  console.log(req)
+  next()
+})
 // 3. Define a wilcard route to get the story mathing the url path
 async function getStoryblok(req, res, next){
 
