@@ -45,7 +45,7 @@ if (fs.existsSync(dir)) {
   console.log('Directory exists!');
 } else {
   git().silent(true)
-  .clone(remote)
+  .clone(remote ,'octiClone')
   .then(() => console.log('finished'))
   .catch((err) => console.error('failed: ', err));
 }
