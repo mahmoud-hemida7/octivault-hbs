@@ -1,11 +1,12 @@
 
 // code for Create an express server //
 'use strict';
- 
 const { readFileSync, readdirSync, writeFileSync } = require('fs');
 var Handlebars = require('handlebars');
 const express = require('express');
 const simpleGit = require('simple-git');
+const git = require('simple-git/promise');
+
 const StoryblokClient = require('storyblok-js-client');
 
 const exphbs = require('express-handlebars');
@@ -16,7 +17,7 @@ require('dotenv').config();
 
 // CONFIGURE HBS 
 
-const data = require('./stories.json');
+// const data = require('./stories.json');
 const partials = readdirSync('./views/partials')
 
 // Register partials
@@ -32,13 +33,40 @@ const REPO = 'gitlab.com/mwatidy/octivault';
 
 const remote = `https://${ USER }:${ PASS }@${ REPO }`;
 
-let git = simpleGit();
+ //let git = simpleGit();
 
 (async () => {
+  simpleGit().addConfig('user.email','mahmoud.watidy+octivault@gmail.com');
+simpleGit().addConfig('user.name','watidy-octivault');
 
-  await git.clone(remote);
+
+
+// Add all files for commit
+await git().add('./*')
+  .then(
+     (addSuccess) => {
+        console.log('addSuccess',addSuccess);
+     }, (failedAdd) => {
+        console.log('adding files failed');
+  });
+
+  // Commit files as Initial Commit
+  await git().commit('updated')
+  .then(
+    (successCommit) => {
+      console.log("successCommit",successCommit);
+  }, (failed) => {
+      console.log('failed commmit',failed);
+  });
   
-  // clone repo from remote
+// // Finally push to online repository
+// await git().push('origin','master')
+// .then((success) => {
+//     console.log(' successfully pushed');
+// },(failed)=> {
+//     console.log(' push failed');
+// }); 
+ // clone repo from remote
   // --------------------------------------------------
 
   // const SimpleGit = simpleGit({ 
@@ -98,7 +126,7 @@ app.get('/*', function(req, res, next) {
 
 
 // route to make a commit after publish
-app.get('/create-page', async (req, res) => {
+app.get('/index', async (req, res) => {
 
     try {
 
@@ -107,9 +135,11 @@ app.get('/create-page', async (req, res) => {
 
     var template = Handlebars.compile(hbsLayout.replace('{{{body}}}', hbsTemplate));
     const html = template(data.data);
-    
+
+
 
     // ------ Push file change to git -------//
+    
 
     // - save file to folder --- page-name.html
     // - git add 
