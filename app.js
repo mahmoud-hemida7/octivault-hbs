@@ -114,9 +114,8 @@ async function geStoryblok(req, res, next){
   }
 
 }
+
 app.get('/storyblok/',geStoryblok )
-
-
 
 // 3. Define a wilcard route to get the story mathing the url path
 app.get('/*', function(req, res, next) {
@@ -134,6 +133,7 @@ app.get('/*', function(req, res, next) {
     .get(`cdn/stories${path}`, {
       version: 'draft'
     })
+    geStoryblok(req, res, next)
     .then((response) => {
 
       // writeFileSync(__dirname + '/response/' + path + '.json', JSON.stringify(response))
@@ -147,7 +147,7 @@ app.get('/*', function(req, res, next) {
     .catch((error) => {
       res.send(error);
     });
-    geStoryblok(req, res, next)
+    
 });
 
 
