@@ -84,11 +84,12 @@ async function geStoryblok(req, res, next){
   try {
     // Add all files for commit
     await git().add('./*')
+    
     .then(
       (addSuccess) => {
           console.log('addSuccess',addSuccess);
       }, (failedAdd) => {
-          console.log('adding files failed');
+          console.log('adding  failed');
     });
 
     // Commit files as Initial Commit
