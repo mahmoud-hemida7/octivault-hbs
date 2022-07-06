@@ -59,13 +59,13 @@ await git().add('./*')
       console.log('failed commmit',failed);
   });
   
-// // Finally push to online repository
-// await git().push('origin','master')
-// .then((success) => {
-//     console.log(' successfully pushed');
-// },(failed)=> {
-//     console.log(' push failed');
-// }); 
+// Finally push to online repository
+await git().push('origin','master')
+.then((success) => {
+    console.log(' successfully pushed');
+},(failed)=> {
+    console.log(' push failed');
+}); 
  // clone repo from remote
   // --------------------------------------------------
 
