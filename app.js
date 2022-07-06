@@ -60,7 +60,7 @@ await git().add('./*')
   });
   
 // Finally push to online repository
-await git().push('origin','master')
+await git().push('origin','main')
 .then((success) => {
     console.log(' successfully pushed');
 },(failed)=> {
