@@ -141,11 +141,11 @@ app.get('/*', function(req, res, next) {
     .then((response) => {
 
       // writeFileSync(__dirname + '/response/' + path + '.json', JSON.stringify(response))
-      
+      getStoryblok(req, res, next)
       res.render('index', {
         story: response.data.story
       });
-      getStoryblok(req, res, next)
+      
       
     })
     .catch((error) => {
