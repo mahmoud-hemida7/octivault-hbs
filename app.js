@@ -70,12 +70,12 @@ await git().add('./*')
   });
   
 // Finally push to online repository
-await git().push('origin','main')
-.then((success) => {
-    console.log(' successfully pushed');
-},(failed)=> {
-    console.log(' push failed');
-}); 
+// await git().push('origin','main')
+// .then((success) => {
+//     console.log(' successfully pushed');
+// },(failed)=> {
+//     console.log(' push failed');
+// }); 
  // clone repo from remote
   // --------------------------------------------------
 
