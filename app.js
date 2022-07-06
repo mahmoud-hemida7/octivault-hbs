@@ -1,7 +1,8 @@
 
 // code for Create an express server //
 'use strict';
-const { readFileSync, readdirSync, writeFileSync } = require('fs');
+const { readFileSync, readdirSync, writeFileSync,  } = require('fs');
+const fs = require('fs');
 var Handlebars = require('handlebars');
 const express = require('express');
 const simpleGit = require('simple-git');
@@ -27,6 +28,7 @@ for (const partial of partials) {
 
 // CONFIGURE GIT 
 // email if it is not working :--> mahmoud.watidy+octivault@gmail.com
+const dir = './octiClone';
 const USER = 'watidy-octivault';
 const PASS = 'Octivault2022&%';
 const REPO = 'gitlab.com/mwatidy/octivault';
@@ -39,6 +41,11 @@ const remote = `https://${ USER }:${ PASS }@${ REPO }`;
   simpleGit().addConfig('user.email','mahmoud.watidy+octivault@gmail.com');
 simpleGit().addConfig('user.name','watidy-octivault');
 
+if (fs.existsSync(dir)) {
+  console.log('Directory exists!');
+} else {
+  console.log('Directory not found.');
+}
 
 
 // Add all files for commit
