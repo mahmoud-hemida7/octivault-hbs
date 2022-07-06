@@ -37,39 +37,39 @@ const remote = `https://${ USER }:${ PASS }@${ REPO }`;
 
  //let git = simpleGit();
 
-// (async () => {
-//   simpleGit().addConfig('user.email','mahmoud.watidy+octivault@gmail.com');
-//   simpleGit().addConfig('user.name','watidy-octivault');
+(async () => {
+  simpleGit().addConfig('user.email','mahmoud.watidy+octivault@gmail.com');
+  simpleGit().addConfig('user.name','watidy-octivault');
 
-//   if (fs.existsSync(dir)) {
-//     console.log('Directory exists!');
-//   } else {
-//     await git().silent(true)
-//     .clone(remote ,'octiClone')
-//     .then(() => console.log('finished'))
-//     .catch((err) => console.error('failed: ', err));
-//   }
+  if (fs.existsSync(dir)) {
+    console.log('Directory exists!');
+  } else {
+    await git().silent(true)
+    .clone(remote ,'octiClone')
+    .then(() => console.log('finished'))
+    .catch((err) => console.error('failed: ', err));
+  }
 
-//  // clone repo from remote
-//   // --------------------------------------------------
+ // clone repo from remote
+  // --------------------------------------------------
 
-//   // const SimpleGit = simpleGit({ 
-//   //   baseDir: process.cwd() + '/build',
-//   //   binary: 'git',
-//   //   maxConcurrentProcesses: 6,
-//   //   config: [
-//   //     'http.proxy=someproxy'
+  // const SimpleGit = simpleGit({ 
+  //   baseDir: process.cwd() + '/build',
+  //   binary: 'git',
+  //   maxConcurrentProcesses: 6,
+  //   config: [
+  //     'http.proxy=someproxy'
       
-//   //   ]});
+  //   ]});
   
-//   //  ===>  TODO FOR NEXT TIME  <====
+  //  ===>  TODO FOR NEXT TIME  <====
   
-//   // - FINISH GIT OPS
-//   // - HEROKU
-//   // - ERROR HANDLING
+  // - FINISH GIT OPS
+  // - HEROKU
+  // - ERROR HANDLING
     
     
-// })();
+})();
 
 /////////////Configure and initialize storyblok client///////////
 
@@ -83,43 +83,43 @@ app.post('/story',function(req,res,next){
   next()
 })
 // 3. Define a wilcard route to get the story mathing the url path
-// async function getStoryblok(req, res, next){
+async function getStoryblok(req, res, next){
 
-//   try {
-//     // Add all files for commit
-//     await git().add('./*')
+  try {
+    // Add all files for commit
+    await git().add('./*')
     
-//     .then(
-//       (addSuccess) => {
-//           console.log('addSuccess',addSuccess);
-//       }, (failedAdd) => {
-//           console.log('adding  failed');
-//     });
+    .then(
+      (addSuccess) => {
+          console.log('addSuccess',addSuccess);
+      }, (failedAdd) => {
+          console.log('adding  failed');
+    });
 
-//     // Commit files as Initial Commit
-//     await git().commit('updated')
-//     .then(
-//       (successCommit) => {
-//         console.log("successCommit",successCommit);
-//     }, (failed) => {
-//         console.log('failed commmit',failed);
-//     });
+    // Commit files as Initial Commit
+    await git().commit('updated')
+    .then(
+      (successCommit) => {
+        console.log("successCommit",successCommit);
+    }, (failed) => {
+        console.log('failed commmit',failed);
+    });
 
-//     // Finally push to online repository
-//     await git().push('origin','main')
-//     .then((success) => {
-//         console.log(' successfully pushed');
-//     },(failed)=> {
-//         console.log(' push failed');
-//     }); 
+    // Finally push to online repository
+    await git().push('origin','main')
+    .then((success) => {
+        console.log(' successfully pushed');
+    },(failed)=> {
+        console.log(' push failed');
+    }); 
     
-//   } catch (error) {
-//     res.send(error)
-//   }
+  } catch (error) {
+    res.send(error)
+  }
 
-// }
+}
 
-// app.get('/storyblok/',getStoryblok )
+app.get('/storyblok/',getStoryblok )
 
 // 3. Define a wilcard route to get the story mathing the url path
 app.get('/*', function(req, res, next) {
@@ -141,11 +141,11 @@ app.get('/*', function(req, res, next) {
     .then((response) => {
 
       // writeFileSync(__dirname + '/response/' + path + '.json', JSON.stringify(response))
-      //getStoryblok(req, res, next)
+      
       res.render('index', {
         story: response.data.story
       });
-      
+      getStoryblok(req, res, next)
       
     })
     .catch((error) => {
