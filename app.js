@@ -52,7 +52,12 @@ await git().add('./*')
 
   // Commit files as Initial Commit
   await git().commit('updated')
-
+  .then(
+    (successCommit) => {
+      console.log("successCommit",successCommit);
+  }, (failed) => {
+      console.log('failed commmit',failed);
+  });
   
 // // Finally push to online repository
 // await git().push('origin','master')
