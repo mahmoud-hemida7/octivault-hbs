@@ -50,32 +50,6 @@ const remote = `https://${ USER }:${ PASS }@${ REPO }`;
     .catch((err) => console.error('failed: ', err));
   }
 
-
-// Add all files for commit
-await git().add('./*')
-  .then(
-     (addSuccess) => {
-        console.log('addSuccess',addSuccess);
-     }, (failedAdd) => {
-        console.log('adding files failed');
-  });
-
-  // Commit files as Initial Commit
-  await git().commit('updated')
-  .then(
-    (successCommit) => {
-      console.log("successCommit",successCommit);
-  }, (failed) => {
-      console.log('failed commmit',failed);
-  });
-  
-// Finally push to online repository
-// await git().push('origin','main')
-// .then((success) => {
-//     console.log(' successfully pushed');
-// },(failed)=> {
-//     console.log(' push failed');
-// }); 
  // clone repo from remote
   // --------------------------------------------------
 
@@ -105,6 +79,45 @@ let Storyblok = new StoryblokClient({
 
 
 // 3. Define a wilcard route to get the story mathing the url path
+async function geStoryblok(req, res, next){
+
+  try {
+    // Add all files for commit
+    await git().add('./*')
+    .then(
+      (addSuccess) => {
+          console.log('addSuccess',addSuccess);
+      }, (failedAdd) => {
+          console.log('adding files failed');
+    });
+
+    // Commit files as Initial Commit
+    await git().commit('updated')
+    .then(
+      (successCommit) => {
+        console.log("successCommit",successCommit);
+    }, (failed) => {
+        console.log('failed commmit',failed);
+    });
+
+    // Finally push to online repository
+    await git().push('origin','main')
+    .then((success) => {
+        console.log(' successfully pushed');
+    },(failed)=> {
+        console.log(' push failed');
+    }); 
+    
+  } catch (error) {
+    res.send(error)
+  }
+
+}
+app.get('/storyblok/',geStoryblok )
+
+
+
+// 3. Define a wilcard route to get the story mathing the url path
 app.get('/*', function(req, res, next) {
 
   if (
@@ -114,7 +127,8 @@ app.get('/*', function(req, res, next) {
   
   var path = url.parse(req.url).pathname;
   path = path == '/' ? '/home' : path;
-
+  
+  
   Storyblok
     .get(`cdn/stories${path}`, {
       version: 'draft'
@@ -122,13 +136,17 @@ app.get('/*', function(req, res, next) {
     .then((response) => {
 
       // writeFileSync(__dirname + '/response/' + path + '.json', JSON.stringify(response))
+      
       res.render('index', {
         story: response.data.story
       });
+      
+      
     })
     .catch((error) => {
       res.send(error);
     });
+    geStoryblok(req, res, next)
 });
 
 
