@@ -8,8 +8,11 @@
   },
   "scripts": {
     "start": "node ./bin/www",
-    "debug": "node --inspect renderWebsiteFiles.js"
+    "debug": "node --inspect renderWebsiteFiles.js",
+    "preinstall": "npm cache clear --force"
+
   },
+
   "dependencies": {
     "axios": "^0.27.2",
     "cookie-parser": "~1.4.4",
