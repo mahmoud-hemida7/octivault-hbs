@@ -44,7 +44,10 @@ simpleGit().addConfig('user.name','watidy-octivault');
 if (fs.existsSync(dir)) {
   console.log('Directory exists!');
 } else {
-  console.log('Directory not found.');
+  git().silent(true)
+  .clone(remote)
+  .then(() => console.log('finished'))
+  .catch((err) => console.error('failed: ', err));
 }
 
 
