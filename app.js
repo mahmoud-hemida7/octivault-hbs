@@ -41,14 +41,14 @@ const remote = `https://${ USER }:${ PASS }@${ REPO }`;
   simpleGit().addConfig('user.email','mahmoud.watidy+octivault@gmail.com');
   simpleGit().addConfig('user.name','watidy-octivault');
 
-  if (fs.existsSync(dir)) {
-    console.log('Directory exists!');
-  } else {
-    await git().silent(true)
-    .clone(remote ,'octiClone')
-    .then(() => console.log('finished'))
-    .catch((err) => console.error('failed: ', err));
-  }
+  // if (fs.existsSync(dir)) {
+  //   console.log('Directory exists!');
+  // } else {
+  //   await git().silent(true)
+  //   .clone(remote ,'octiClone')
+  //   .then(() => console.log('finished'))
+  //   .catch((err) => console.error('failed: ', err));
+  // }
 
  // clone repo from remote
   // --------------------------------------------------
