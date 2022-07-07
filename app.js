@@ -202,6 +202,10 @@ app.set('view engine', '.hbs');
 app.set('views', 'views')
 app.use('/public', express.static('public'));
 
+app.all('*', (req, res) => {
+  res.status(404).send('<h1>404! Page not found</h1>');
+});
+
 app.listen(4300, function() {
   console.log('Example app listening on port 4300!');
 });
