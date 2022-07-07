@@ -149,9 +149,8 @@ app.get('/*', function(req, res, next) {
     });
     
 });
-app.get('*', (req, res) => {
-  res.status(404).send('/error.hbs');
-});
+// Handling non matching request from the client
+
 
 
 ///////////// end of Configure a route and initialize the client ///////////
