@@ -149,7 +149,7 @@ app.get('/*', function(req, res, next) {
     });
     
 });
-app.all('*', (req, res) => {
+app.get('*', (req, res) => {
   res.status(404).send('/error.hbs');
 });
 
