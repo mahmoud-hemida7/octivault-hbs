@@ -87,9 +87,7 @@ async function getStoryblok(req, res, next){
 
   try {
     // Add all files for commit
-    await git().add('./*')
-    
-    .then(
+    await git().add('./*').then(
       (addSuccess) => {
           console.log('addSuccess',addSuccess);
       }, (failedAdd) => {
@@ -97,8 +95,7 @@ async function getStoryblok(req, res, next){
     });
 
     // Commit files as Initial Commit
-    await git().commit('updated')
-    .then(
+    await git().commit('updated').then(
       (successCommit) => {
         console.log("successCommit",successCommit);
     }, (failed) => {
@@ -106,8 +103,7 @@ async function getStoryblok(req, res, next){
     });
 
     // Finally push to online repository
-    await git().push('origin','main')
-    .then((success) => {
+    await git().push('origin','main').then((success) => {
         console.log(' successfully pushed');
     },(failed)=> {
         console.log(' push failed');
