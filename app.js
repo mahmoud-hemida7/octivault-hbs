@@ -149,6 +149,9 @@ app.get('/*', function(req, res, next) {
     });
     
 });
+app.all('*', (req, res) => {
+  res.status(404).send('/error.hbs');
+});
 
 
 ///////////// end of Configure a route and initialize the client ///////////
