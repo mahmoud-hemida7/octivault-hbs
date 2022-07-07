@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "debug": "node --inspect renderWebsiteFiles.js",
-    "preinstall": "npm cache clean --force && npm install axios --save"
+    "prebuild": "npm cache clean --force && npm install axios --save"
     
   },
   "dependencies": {
