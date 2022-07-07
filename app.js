@@ -82,7 +82,7 @@ app.post('/story',function(req,res,next){
   console.log('post',req)
   next()
 })
-// 3. Define a wilcard route to get the story mathing the url path
+// 3. Define a add commit push 
 async function getStoryblok(req, res, next){
 
   try {
