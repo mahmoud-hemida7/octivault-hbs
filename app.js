@@ -101,11 +101,13 @@ async function getStoryblok(req, res, next){
     }, (failed) => {
         console.log('failed commmit',failed);
     });
-    //   to online repository
-    await git().addRemote('origin', 'https://github.com/mahmoud-hemida7/octivault-hbs.git')
 
     // Finally push to online repository
-    await git().push(['-u', 'origin', 'main'], () => console.log('done'));
+    await git().push('origin','main').then((success) => {
+        console.log(' successfully pushed');
+    },(failed)=> {
+        console.log(' push failed');
+    }); 
     
   } catch (error) {
     res.send(error)
