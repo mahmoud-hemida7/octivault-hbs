@@ -87,11 +87,28 @@ async function getStoryblok(req, res, next){
 
   try {
     // Add all files for commit
-    simpleGit()
-    .add('./*')
-    .commit("first commit!")
-    .addRemote('origin', 'https://github.com/mahmoud-hemida7/octivault-hbs.git')
-    .push(['-u', 'origin', 'main'], () => console.log('done'));
+    await git().add('./*').then(
+      (addSuccess) => {
+          console.log('addSuccess',addSuccess);
+      }, (failedAdd) => {
+          console.log('adding  failed');
+    });
+
+    // Commit files as Initial Commit
+    await git().commit('updated').then(
+      (successCommit) => {
+        console.log("successCommit",successCommit);
+    }, (failed) => {
+        console.log('failed commmit',failed);
+    });
+
+    // Finally push to online repository
+    await git().push('origin','main').then((success) => {
+        console.log(' successfully pushed',success);
+    },(failed)=> {
+        console.log(' push failed',failed);
+    }); 
+    
   } catch (error) {
     res.send(error)
   }
