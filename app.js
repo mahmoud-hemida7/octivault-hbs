@@ -6,7 +6,7 @@ const fs = require('fs');
 var Handlebars = require('handlebars');
 const express = require('express');
 const simpleGit = require('simple-git');
-const git = require('simple-git/promise');
+const git = require('simple-git');
 
 const StoryblokClient = require('storyblok-js-client');
 
@@ -133,6 +133,7 @@ app.get('/*', function(req, res, next) {
     .get(`cdn/stories${path}`, {
       version: 'draft'
     })
+    
     
     .then((response) => {
 
