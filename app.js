@@ -203,7 +203,8 @@ app.set('views', 'views')
 app.use('/public', express.static('public'));
 
 app.get('*', function(req, res){
-  res.send('views/partials/error.hbs');
+  // res.send('/views/partials/error.hbs');
+  console.log(res.send('not found'))
 });
 app.listen(4300, function() {
   console.log('Example app listening on port 4300!');
