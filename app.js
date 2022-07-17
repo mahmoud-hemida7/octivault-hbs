@@ -97,7 +97,7 @@ async function getStoryblok(req, res, next){
     // Commit files as Initial Commit
     await git().commit('updated').then(
       (successCommit) => {
-        console.log("successCommit",successCommit);
+        console.log("successCommitjjj",successCommit);
     }, (failed) => {
         console.log('failed commmit',failed);
     });
