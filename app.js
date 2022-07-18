@@ -37,39 +37,39 @@ const remote = `https://${ USER }:${ PASS }@${ REPO }`;
 
  //let git = simpleGit();
 
-(async () => {
-  simpleGit().addConfig('user.email','mahmoud.watidy+octivault@gmail.com');
-  simpleGit().addConfig('user.name','watidy-octivault');
+// (async () => {
+//   simpleGit().addConfig('user.email','mahmoud.watidy+octivault@gmail.com');
+//   simpleGit().addConfig('user.name','watidy-octivault');
 
-  if (fs.existsSync(dir)) {
-    console.log('Directory exists!');
-  } else {
-    await git().silent(true)
-    .clone(remote ,'octiClone')
-    .then(() => console.log('finished'))
-    .catch((err) => console.error('failed: ', err));
-  }
+//   if (fs.existsSync(dir)) {
+//     console.log('Directory exists!');
+//   } else {
+//     await git().silent(true)
+//     .clone(remote ,'octiClone')
+//     .then(() => console.log('finished'))
+//     .catch((err) => console.error('failed: ', err));
+//   }
 
- // clone repo from remote
-  // --------------------------------------------------
+//  // clone repo from remote
+//   // --------------------------------------------------
 
-  // const SimpleGit = simpleGit({ 
-  //   baseDir: process.cwd() + '/build',
-  //   binary: 'git',
-  //   maxConcurrentProcesses: 6,
-  //   config: [
-  //     'http.proxy=someproxy'
+//   // const SimpleGit = simpleGit({ 
+//   //   baseDir: process.cwd() + '/build',
+//   //   binary: 'git',
+//   //   maxConcurrentProcesses: 6,
+//   //   config: [
+//   //     'http.proxy=someproxy'
       
-  //   ]});
+//   //   ]});
   
-  //  ===>  TODO FOR NEXT TIME  <====
+//   //  ===>  TODO FOR NEXT TIME  <====
   
-  // - FINISH GIT OPS
-  // - HEROKU
-  // - ERROR HANDLING
+//   // - FINISH GIT OPS
+//   // - HEROKU
+//   // - ERROR HANDLING
     
     
-})();
+// })();
 
 /////////////Configure and initialize storyblok client///////////
 
