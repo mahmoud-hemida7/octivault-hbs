@@ -9,8 +9,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "debug": "node --inspect renderWebsiteFiles.js",
-    "preinstall": "yarn install",
-    "build":""
+    "preinstall": "yarn install"
   },
   "dependencies": {
     "axios": "^0.27.2",
