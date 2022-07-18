@@ -9,7 +9,8 @@
   "scripts": {
     "start": "node ./bin/www",
     "debug": "node --inspect renderWebsiteFiles.js",
-    "preinstall": "npm cache clean --force && npm install axios --save"
+    "preinstall": "yarn install",
+    "build":""
   },
   "dependencies": {
     "axios": "^0.27.2",
