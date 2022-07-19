@@ -103,9 +103,9 @@ async function getStoryblok(req, res, next){
 
     // Finally push to online repository
     await simpleGit().push('origin','main').then((success) => {
-        console.log(success,'successfully pushed');
+        console.log('successfully pushed');
     },(failed)=> {
-        console.log(failed,'push failed');
+        console.log('push failed');
     }); 
     
   } catch (error) {
