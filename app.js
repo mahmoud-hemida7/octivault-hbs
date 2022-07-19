@@ -104,9 +104,9 @@ async function getStoryblok(req, res, next){
 
     // Finally push to online repository
     await git().push('origin','main').then((success) => {
-        console.log(' successfully pushed',success);
+        console.log(success,'successfully pushed');
     },(failed)=> {
-        console.log(' push failed',failed);
+        console.log(failed,'push failed');
     }); 
     
   } catch (error) {
