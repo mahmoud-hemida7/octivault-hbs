@@ -6,7 +6,6 @@ const fs = require('fs');
 var Handlebars = require('handlebars');
 const express = require('express');
 const simpleGit = require('simple-git');
-const git = require('simple-git');
 
 const StoryblokClient = require('storyblok-js-client');
 
@@ -84,7 +83,14 @@ app.post('/story',function(req,res,next){
 })
 // 3. Define a add commit push 
 async function getStoryblok(req, res, next){
-
+  const {
+      action ,
+      story_id
+    }=req.body
+    if(action!=="published"){
+      return res.send("ok")
+    }
+    
   try {
     // Add all files for commit
     await git().add('./*').then(
@@ -207,7 +213,7 @@ app.get('*', function(req, res){
   // res.send('/views/partials/error.hbs');
   console.log(res.send('not found'))
 });
-app.listen(4300, function() {
+app.listen(80, function() {
   console.log('Example app listening on port 4300!');
 });
 /////////////end of creating server///////////
