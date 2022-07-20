@@ -86,11 +86,16 @@ async function getStoryblok(req, res, next){
   const {
       action ,
       story_id
-    }=req.body
-    if(action!=="published"){
-      return res.send("ok")
-    }
+    }= req.body 
+
+    if(action!=="published")  return res.send("ok")
     
+
+    //get story with story_id
+    //put data in hbs to render it to html
+    //save html output 
+
+
   try {
     // Add all files for commit
     await git().add('./*').then(
@@ -213,7 +218,7 @@ app.get('*', function(req, res){
   // res.send('/views/partials/error.hbs');
   console.log(res.send('not found'))
 });
-app.listen(80, function() {
+app.listen(4300, function() {
   console.log('Example app listening on port 4300!');
 });
 /////////////end of creating server///////////
