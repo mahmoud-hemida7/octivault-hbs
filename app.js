@@ -126,7 +126,7 @@ async function getStoryblok(req, res, next){
 
 }
 
-app.get('/storyblok/',getStoryblok )
+app.post('/storyblok',getStoryblok )
 
 // 3. Define a wilcard route to get the story mathing the url path
 app.get('/*', function(req, res, next) {
@@ -153,7 +153,7 @@ app.get('/*', function(req, res, next) {
       res.render('index', {
         story: response.data.story
       });
-      getStoryblok(req, res, next)
+      
       
     })
     .catch((error) => {
