@@ -23,6 +23,7 @@
     "http-errors": "~1.6.3",
     "mongoose": "^6.3.5",
     "morgan": "~1.9.1",
+    "nodemon": "^2.0.19",
     "simple-git": "^3.10.0",
     "storyblok-js-client": "^4.5.2"
   },
